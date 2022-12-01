@@ -78,14 +78,24 @@
   </section>
   <footer class="content-baseboard">
     <div class="baseboard">
+      <div class="contact">
+
       <img
         class="logo-footer"
         src="../assets/logo-b.png"
         alt="image logo ruyluques" />
-      <p class="text-footer">Email: ruyluques@hotmail.com</p>
+      <p>Email: ruyluques@hotmail.com</p>
       <a href="https://www.linkedin.com/in/ruyluques/" target="_blank"
-        ><img class="icon" src="../assets/linkedin.png" alt="image linkedin"
-      /></a>
+        >
+        <img class="social" src="../assets/linkedin.png" alt="image linkedin"/>
+      </a>
+      <a href="https://www.youtube.com/channel/UC8-PWLAu6_QcfD3mDXZDqXQ/videos" target="_blank">
+        <img class="social" src="../assets/youtube.png" alt="image youtube"/>
+    </a>
+    <a href="https://wa.me/message/5FM2IH2CW6J2E1" target="_blank">
+        <img class="social" src="../assets/whatsapp.png" alt="image whatsapp"/>
+      </a>
+    </div>
     </div>
   </footer>
 
@@ -274,6 +284,17 @@ h1 {
   position: fixed;
   bottom: 10px;
   right: 10px;
+}
+
+.contact {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.social{
+  width: 25px;
+  margin: 5px;
 }
 
 @media screen and (max-width: 1150px) {
