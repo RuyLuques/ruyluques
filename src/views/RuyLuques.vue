@@ -1,65 +1,75 @@
 <template>
   <div class="container-body">
     <div class="content-body">
-      <img class="logo" src="../assets/logo-b.png"/>
-      <h2 class="title">Bem vinda(o)</h2>
-      <h2 style="font-size: 80px">Porfólio Ruy Luques</h2>
+      <img class="logo" src="../assets/logo-b.png" />
+      <h2 class="title">Welcome</h2>
+      <h2 style="font-size: 80px">Porfolio Ruy Luques</h2>
       <p style="font-size: 25px; color: #fff; text-align: center">
-        Serviços de marketing digital e desenvolvimento web
+        Digital marketing and web development services
       </p>
-      <a href="https://www.linkedin.com/company/ruyluques-dev" class="contact-btn">Contrate Agora</a>
+      <a
+        href="https://www.linkedin.com/company/ruyluques-dev"
+        class="contact-btn"
+        >Hire Now</a
+      >
     </div>
   </div>
   <section class="container-content">
-    <p class="text">Oferecemos os seguintes serviços</p>
+    <p class="text">Services</p>
     <div class="card-content">
       <div>
         <h3 class="content">Developer Web</h3>
         <section class="hidden">
-          <img class="icon" src="../assets/php.png" />
-          <img class="icon" src="../assets/mysql.png" />
-          <img class="icon" src="../assets/html.png" />
-          <img class="icon" src="../assets/css-3.png" />
-          <img class="icon" src="../assets/js.png" />
-          <img class="icon" src="../assets/vue.png" />
-          <img class="icon" src="../assets/vue-test.jpeg" />
-          <img class="icon" src="../assets/api.png" />
-          <img class="icon" src="../assets/bootstrap.png" />
-          <img class="icon" src="../assets/git.png" />
-          <img class="icon" src="../assets/react.png" />
+          <img class="icon" src="../assets/php.png" alt="image php" />
+          <img class="icon" src="../assets/mysql.png" alt="image mysql" />
+          <img class="icon" src="../assets/html.png" alt="image html" />
+          <img class="icon" src="../assets/css-3.png" alt="image css" />
+          <img class="icon" src="../assets/js.png" alt="image javascript" />
+          <img class="icon" src="../assets/vue.png" alt="image vue" />
+          <img
+            class="icon"
+            src="../assets/vue-test.jpeg"
+            alt="image vue-teste" />
+          <img class="icon" src="../assets/api.png" alt="image api" />
+          <img
+            class="icon"
+            src="../assets/bootstrap.png"
+            alt="image bootstrap" />
+          <img class="icon" src="../assets/git.png" alt="image git" />
+          <img class="icon" src="../assets/react.png" alt="image react" />
         </section>
       </div>
       <div>
         <h3 class="content">RPA (automation)</h3>
         <section class="hidden">
-          <img class="icon" src="../assets/uipath.webp" />
+          <img class="icon" src="../assets/uipath.webp" alt="image uipath" />
         </section>
       </div>
       <div>
         <h3 class="content">Content Creator</h3>
         <section class="hidden">
-          <img class="icon" src="../assets/linkedin.png" />
-          <img class="icon" src="../assets/youtube.png" />
+          <img class="icon" src="../assets/linkedin.png" alt="image linkedin" />
+          <img class="icon" src="../assets/youtube.png" alt="image youtube" />
         </section>
       </div>
       <div>
-        <h3 class="content">Computer and Programming Teacher</h3>
+        <h3 class="content">Teacher Computer and Programming</h3>
         <section class="hidden">
-          <img class="icon" src="../assets/html.png" />
-          <img class="icon" src="../assets/css-3.png" />
-          <img class="icon" src="../assets/ifs.png" />
+          <img class="icon" src="../assets/html.png" alt="image html" />
+          <img class="icon" src="../assets/css-3.png" alt="image css" />
+          <img class="icon" src="../assets/ifs.png" alt="image ifs" />
         </section>
       </div>
       <div>
-        <h3 class="content">Templates de Marketing Digita</h3>
+        <h3 class="content">Digital Marketing Templates</h3>
         <section class="hidden">
-          <img class="icon" src="../assets/canva.png" />
-          <img class="icon" src="../assets/trello.png" />
-          <img class="icon" src="../assets/jira.png" />
+          <img class="icon" src="../assets/canva.png" alt="image canva" />
+          <img class="icon" src="../assets/trello.png" alt="image trello" />
+          <img class="icon" src="../assets/jira.png" alt="image jira" />
         </section>
       </div>
       <div>
-        <h3 class="content">Mentoria de linkedin</h3>
+        <h3 class="content">Linkedin Mentoring</h3>
         <section class="hidden">
           <img class="icon" src="../assets/linkedin.png" />
         </section>
@@ -69,12 +79,16 @@
   <footer class="content-baseboard">
     <div class="baseboard">
       <img class="logo-footer" src="../assets/logo-b.png" />
-      <p class="text-footer">E-mail: ruyluques@hotmail.com</p>
+      <p class="text-footer">Email: ruyluques@hotmail.com</p>
     </div>
   </footer>
 
   <a href="" target="_blank"
-    ><img class="zap" src="../assets/whatsapp.png" alt="zap"
+    ><img
+      class="zap"
+      src="../assets/whatsapp.png"
+      href="https://wa.me/message/5FM2IH2CW6J2E1"
+      alt="image whatsapp"
   /></a>
 </template>
 
@@ -91,7 +105,6 @@
   margin-left: 20px;
 }
 
-
 body {
   font-family: "Roboto", sans-serif;
   overflow-y: scroll;
@@ -106,12 +119,12 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   border-radius: 15px;
-  border: calc(14px / 4) solid #AA2851;
+  border: calc(14px / 4) solid #aa2851;
 }
 
 body::-webkit-scrollbar-thumb {
   border-radius: 15px;
-  border: calc(14px / 4) solid #AA2851;
+  border: calc(14px / 4) solid #aa2851;
 }
 
 h1 {
@@ -162,7 +175,7 @@ h1 {
 
 .contact-btn {
   display: inline-block;
-  background: #AA2851;
+  background: #aa2851;
   padding: 10px;
   color: white;
   text-decoration: none;
@@ -255,7 +268,7 @@ h1 {
 }
 
 .zap {
-  width: 100px;
+  width: 5%;
   position: fixed;
   bottom: 10px;
   right: 10px;
