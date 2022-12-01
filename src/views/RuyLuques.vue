@@ -1,7 +1,7 @@
 <template>
   <div class="container-body">
     <div class="content-body">
-      <img class="logo" src="../assets/logo-b.png" />
+      <img class="logo" src="../assets/logo-b.png" alt="image logo ruyluques" />
       <h2 class="title">Welcome</h2>
       <h2 style="font-size: 80px">Porfolio Ruy Luques</h2>
       <p style="font-size: 25px; color: #fff; text-align: center">
@@ -71,24 +71,26 @@
       <div>
         <h3 class="content">Linkedin Mentoring</h3>
         <section class="hidden">
-          <img class="icon" src="../assets/linkedin.png" />
+          <img class="icon" src="../assets/linkedin.png" alt="image linkedin" />
         </section>
       </div>
     </div>
   </section>
   <footer class="content-baseboard">
     <div class="baseboard">
-      <img class="logo-footer" src="../assets/logo-b.png" />
+      <img
+        class="logo-footer"
+        src="../assets/logo-b.png"
+        alt="image logo ruyluques" />
       <p class="text-footer">Email: ruyluques@hotmail.com</p>
+      <a href="https://www.linkedin.com/in/ruyluques/" target="_blank"
+        ><img class="icon" src="../assets/linkedin.png" alt="image linkedin"
+      /></a>
     </div>
   </footer>
 
-  <a href="https://wa.me/message/5FM2IH2CW6J2E1"
- target="_blank"
-    ><img
-      class="zap"
-      src="../assets/whatsapp.png"
-      alt="image whatsapp"
+  <a href="https://wa.me/message/5FM2IH2CW6J2E1" target="_blank"
+    ><img class="zap" src="../assets/whatsapp.png" alt="image whatsapp"
   /></a>
 </template>
 
