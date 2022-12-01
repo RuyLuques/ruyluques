@@ -83,11 +83,11 @@
     </div>
   </footer>
 
-  <a href="" target="_blank"
+  <a href="https://wa.me/message/5FM2IH2CW6J2E1"
+ target="_blank"
     ><img
       class="zap"
       src="../assets/whatsapp.png"
-      href="https://wa.me/message/5FM2IH2CW6J2E1"
       alt="image whatsapp"
   /></a>
 </template>
