@@ -1,16 +1,25 @@
-### Hi there 👋
+# Olá, eu sou a Ana Ruy! 👋
 
-<!--
-**RuyLuques/ruyluques** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Desenvolvedora Web](https://media.giphy.com/media/yyVph7ANKftIs/giphy.gif)
 
-Here are some ideas to get you started:
+## Sobre mim
+Olá, meu nome é Ana Ruy, tenho 24 anos e sou formada em marketing. Atualmente, estudo ciência da computação e inglês. Sou conhecida por ser uma pessoa comunicativa, apaixonada por aprender e ensinar. Fora do ambiente de trabalho, meus interesses incluem viajar, cuidar de animais, cultivar plantas e tocar instrumentos musicais. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tecnologias que eu trabalho
+- Front-end: HTML, CSS, JavaScript, TypeScript, React, Vue, Angular
+- Back-end: Node.js, SQL
+- Linguagens: Java
+- Containers: Docker
+- Cloud: AWS
+- Design: Figma
+- Testes: Cypress, Vite Test, Jest
+
+## Projetos recentes
+- [Projeto 1](https://github.com/RuyLuques/project-chuva) - Angular + TS + cypress
+- [Projeto 2](https://github.com/RuyLuques/portfolio-version-1) - React + Nodejs + JS
+
+## Como me encontrar
+- [LinkedIn](https://www.linkedin.com/in/ruyluques/)
+- [Portfolio](https://www.ruyluques.com.br/)
+
+Fique à vontade para entrar em contato comigo se você quiser colaborar em projetos empolgantes ou discutir oportunidades de trabalho. 😊
