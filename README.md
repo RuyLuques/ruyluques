@@ -17,7 +17,10 @@ Olá, meu nome é Ana Ruy, tenho 24 anos e sou formada em marketing. Atualmente,
 ## Projetos recentes
 - [Projeto 1](https://github.com/RuyLuques/project-chuva) - Angular + TS + cypress
 - [Projeto 2](https://github.com/RuyLuques/project-portfolio-1) - React + Nodejs + JS
-
+- [Projeto 3](https://github.com/RuyLuques/Curso-GENERATION) - JAVA + Curso 
+- [Projeto 4](https://github.com/RuyLuques/Curso-SENAI) - Dev. Web básico (Curso)
+- [Projeto 5](https://github.com/RuyLuques/Curso-PROGRAMARIA) - Dev. Web básico (Curso)
+  
 ## Como me encontrar
 - [LinkedIn](https://www.linkedin.com/in/ruyluques/)
 - [Portfolio](https://www.ruyluques.com.br/)
