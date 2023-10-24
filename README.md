@@ -12,7 +12,7 @@ Olá, meu nome é Ana Ruy, tenho 24 anos e sou formada em marketing. Atualmente,
 - Containers: Docker
 - Cloud: AWS
 - Design: Figma
-- Testes: Cypress, Vite Test, Jest
+- Testes: Cypress, Vitest, Jest
 
 ## Projetos recentes
 - [Projeto 1](https://github.com/RuyLuques/project-chuva) - Angular + TS + cypress
