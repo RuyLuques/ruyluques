@@ -3,7 +3,9 @@
 ![Desenvolvedora Web](https://media.giphy.com/media/yyVph7ANKftIs/giphy.gif)
 
 ## Sobre mim
-Olá, meu nome é Ana Ruy, tenho 24 anos e sou formada em marketing. Atualmente, estudo ciência da computação e inglês. Sou conhecida por ser uma pessoa comunicativa, apaixonada por aprender e ensinar. Fora do ambiente de trabalho, meus interesses incluem viajar, cuidar de animais, cultivar plantas e tocar instrumentos musicais. 
+Atuo na programação há 2 anos, especializando-me em frontend. Voluntária no LinkedIn e YouTube, dou dicas de carreira. Reconhecida entre as 50 melhores indicações para seguir em 2023 pela Gama Academy. 
+
+Já dei mentorias de carreira com foco em marca profissional no linkedin, ministrei curso de informática para 30 alunos e sou a principal dev voluntária em ONG ligada ao consulado canadense. Ex-admin de canal no Discord onde atuei como community manager ajudando profissionais em transição de carreira. Mãe de pets e plantas, amante de viagens e música. 👩‍💻✨
 
 ## Tecnologias que eu trabalho
 - Front-end: HTML, CSS, JavaScript, TypeScript, React, Vue, Angular, React Native
