@@ -3,19 +3,8 @@
 ![Desenvolvedora Web](https://media.giphy.com/media/yyVph7ANKftIs/giphy.gif)
 
 ## Sobre mim
-Atuo na programação há 2 anos, especializando-me em frontend. Voluntária no LinkedIn e YouTube, dou dicas de carreira. Reconhecida entre as 50 melhores indicações para seguir em 2023 pela Gama Academy. 
-
-Já dei mentorias de carreira com foco em marca profissional no linkedin, ministrei curso de informática para 30 alunos e sou a principal dev voluntária em ONG ligada ao consulado canadense. Ex-admin de canal no Discord onde atuei como community manager ajudando profissionais em transição de carreira. Mãe de pets e plantas, amante de viagens e música. 👩‍💻✨
 
 ## Tecnologias que eu trabalho
-- Front-end: HTML, CSS, JavaScript, TypeScript, React, Vue, Angular, React Native
-- Back-end: Node.js, Mysql, Supabase, MongoDB
-- Linguagens: Java básico
-- Containers: Docker
-- Cloud: AWS básico
-- Design: Figma, Canva
-- Testes: Cypress, Vitest, Jest
-- Marketing: Hubspot, Zapier, SEO, Google Analytics 
 
 ## Projetos recentes
 - [Projeto 1](https://github.com/RuyLuques/project-chuva) - Angular + TS + cypress ✔️ 
@@ -29,6 +18,5 @@ Já dei mentorias de carreira com foco em marca profissional no linkedin, minist
   
 ## Como me encontrar
 - [LinkedIn](https://www.linkedin.com/in/ruyluques/)
-- [Portfolio](https://www.ruyluques.com.br/)
 
 Fique à vontade para entrar em contato comigo se você quiser colaborar em projetos empolgantes ou discutir oportunidades de trabalho. 😊
