@@ -13,8 +13,9 @@
 - [Projeto 4](https://github.com/RuyLuques/Curso-GENERATION) - JAVA (Curso) ✔️
 - [Projeto 5](https://github.com/RuyLuques/Curso-SENAI) - Dev. Web básico (Curso) ✔️
 - [Projeto 6](https://github.com/RuyLuques/Curso-PROGRAMARIA) - Dev. Web básico (Curso) ✔️
-- [Projeto 7](https://github.com/RuyLuques/Lab-Frontend) - Vue 3 + ts + cypress (em desenvolvimento) ⏰
-- [Projeto 8](https://github.com/RuyLuques/Lab-Backend) - Nodejs + Mysql (em desenvolvimento) ⏰
+- [Projeto 7](https://github.com/RuyLuques/desafio-git) - Desafio DIO ✔️
+- [Projeto 8](https://github.com/RuyLuques/Lab-Frontend) - Vue 3 + ts + cypress (em desenvolvimento) ⏰
+- [Projeto 9](https://github.com/RuyLuques/Lab-Backend) - Nodejs + Mysql (em desenvolvimento) ⏰
   
 ## Como me encontrar
 - [LinkedIn](https://www.linkedin.com/in/ruyluques/)
