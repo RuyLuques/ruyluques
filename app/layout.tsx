@@ -1,5 +1,6 @@
 import "./globals.css";
 import { ThemeProvider } from "./components/ThemeProvider";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export default function RootLayout({
   children,
@@ -11,6 +12,7 @@ export default function RootLayout({
       <body>
         <ThemeProvider>
           {children}
+      <WhatsAppButton />
         </ThemeProvider>
       </body>
     </html>
