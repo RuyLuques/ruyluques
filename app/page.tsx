@@ -73,23 +73,6 @@ export default function Home() {
           >
             Sobre mim
           </button>
-
-          <a
-            href="#servicos"
-            className="
-              rounded-full
-              bg-purple-700
-              px-6
-              py-3
-              text-sm
-              font-medium
-              text-white
-              transition
-              hover:bg-purple-800
-            "
-          >
-            Ver serviços
-          </a>
         </div>
       </section>
 
