@@ -66,10 +66,10 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
                                 🎓 Graduação
                             </p>
                             <p className="ml-6">
-                                Bacharel em Marketing
+                                Marketing Digital
                             </p>
                             <p className="ml-6">
-                                Tecnóloga em Análise e Desenvolvimento de Sistemas
+                                Análise e Desenvolvimento de Sistemas
                             </p>
                         </div>
 
