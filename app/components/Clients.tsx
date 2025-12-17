@@ -33,7 +33,7 @@ const clients = [
   {
     name: "Nibo",
     logo: "/clients/nibo.png",
-    desc: "Desenvolvimento de site, hotsite, aplicativo, gestão de CRM, criação de materiais digitais de marketing, criação de documentações, dashboards, automação com Excel e softwares. Suporte técnico.",
+    desc: "Desenvolvimento de sites, hotsites e aplicativos, gestão de CRM, dashboards, automações, documentação técnica, materiais digitais de marketing e suporte técnico.",
   },
   {
     name: "Petlove",
