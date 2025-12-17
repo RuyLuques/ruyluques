@@ -47,6 +47,7 @@ const clients = [
   },
 ];
 
+
 export default function Clients() {
   const [activeClient, setActiveClient] = useState<typeof clients[0] | null>(null);
 
