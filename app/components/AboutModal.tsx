@@ -11,8 +11,14 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
     if (!open) return null;
 
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4">
-            <div className="relative w-full max-w-3xl rounded-2xl bg-neutral-900 p-6">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4"
+            onClick={onClose}
+
+        >
+            <div className="relative w-full max-w-3xl rounded-2xl bg-neutral-900 p-6"
+                onClick={(e) => e.stopPropagation()}
+
+            >
 
                 <button
                     onClick={onClose}
