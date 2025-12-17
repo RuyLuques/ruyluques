@@ -47,7 +47,7 @@ export default function Home() {
           tracking-tight
           sm:text-5xl
         ">
-          Soluções digitais modernas e sob medida
+          Transformo problemas reais em sistemas que funcionam
         </h1>
 
         <p className="max-w-xl text-sm text-neutral-500">
