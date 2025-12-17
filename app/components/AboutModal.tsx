@@ -53,7 +53,7 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
                     <div className="grid grid-cols-2 gap-2 text-left text-xs text-white/80 max-w-2xl">
                         <p>📊 Análises e métricas</p>
                         <p>⚙️ Automação de processos</p>
-                        <p>📱 Apps iOS e Android</p>
+                        <p>📱 Desenvolvimento de Sites</p>
                         <p>🧩 Documentação e fluxos</p>
                     </div>
 
