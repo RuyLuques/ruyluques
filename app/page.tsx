@@ -15,41 +15,82 @@ export default function Home() {
 
   return (
     <>
-      <section className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-6 py-6 text-center">
+      <section className="
+        mx-auto
+        flex
+        max-w-7xl
+        flex-col
+        items-center
+        gap-8
+        px-6
+        py-16
+        text-center
+      ">
 
-        <div className="self-end">
+        <div className="absolute right-6 top-6">
           <ThemeToggle />
         </div>
 
         <Image
           src={dark ? "/logo/img-white.ico" : "/logo/img-black.ico"}
           alt="Ruy Luques"
-          width={48}
-          height={48}
+          width={56}
+          height={56}
           priority
+          className="opacity-90"
         />
 
-        <h1 className="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">
+        <h1 className="
+          max-w-3xl
+          text-4xl
+          font-bold
+          tracking-tight
+          sm:text-5xl
+        ">
           Soluções digitais modernas e sob medida
         </h1>
 
-        <button
-          onClick={() => setOpenAbout(true)}
-          className="
-          rounded-full
-          border
-          border-purple-700
-          px-6 py-3
-          text-sm font-medium
-          text-purple-700
-          transition
-          hover:bg-purple-700
-          hover:text-white
-          "
-        >
-          Quem é Ruy Luques?
-        </button>
+        <p className="max-w-xl text-sm text-neutral-500">
+          Desenvolvimento de sistemas, automações e soluções digitais focadas em eficiência, dados e resultado.
+        </p>
 
+        <div className="flex gap-4">
+          <button
+            onClick={() => setOpenAbout(true)}
+            className="
+              rounded-full
+              border
+              border-purple-700
+              px-6
+              py-3
+              text-sm
+              font-medium
+              text-purple-700
+              transition
+              hover:bg-purple-700
+              hover:text-white
+            "
+          >
+            Sobre mim
+          </button>
+
+          <a
+            href="#servicos"
+            className="
+              rounded-full
+              bg-purple-700
+              px-6
+              py-3
+              text-sm
+              font-medium
+              text-white
+              transition
+              hover:bg-purple-800
+            "
+          >
+            Ver serviços
+          </a>
+        </div>
       </section>
 
       <Services />
