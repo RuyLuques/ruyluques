@@ -24,7 +24,6 @@ export default function Home() {
           width={48}
           height={48}
           priority
-          className="h-auto w-auto"
         />
 
         <h1 className="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">
