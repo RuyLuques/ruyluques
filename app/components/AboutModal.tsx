@@ -49,7 +49,6 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
                         aplicando tecnologia para apoiar decisões e gerar valor real.
                     </p>
 
-
                     <div className="grid grid-cols-2 gap-2 text-left text-xs text-white/80 max-w-2xl">
                         <p>📊 Análises e métricas</p>
                         <p>⚙️ Automação de processos</p>
@@ -57,11 +56,36 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
                         <p>🧩 Documentação e fluxos</p>
                     </div>
 
-                    <p className="text-xs text-white/70 text-center max-w-2xl">
-                        Formação em <strong>Marketing</strong> e
-                        <strong> Análise e Desenvolvimento de Sistemas</strong> ·
-                        Pós-graduação em <strong>Ciência de Dados</strong>
-                    </p>
+                    <div className="mt-1 text-xs text-white/85 max-w-2xl text-left">
+                        <p className="mb-1 text-center font-semibold text-white py-3">
+                            Formação Acadêmica
+                        </p>
+
+                        <div className="mb-1">
+                            <p className="flex items-center gap-2 font-medium text-white">
+                                🎓 Graduação
+                            </p>
+                            <p className="ml-6">
+                                Bacharel em Marketing
+                            </p>
+                            <p className="ml-6">
+                                Tecnóloga em Análise e Desenvolvimento de Sistemas
+                            </p>
+                        </div>
+
+                        <div>
+                            <p className="flex items-center gap-2 font-medium text-white">
+                                🧠 Pós-graduação
+                            </p>
+                            <p className="ml-6">
+                                Ciência de Dados
+                            </p>
+                            <p className="ml-6">
+                                Robótica e Inteligência Artificial
+                            </p>
+                        </div>
+                    </div>
+
 
                     <p className="text-xs font-medium text-white">
                         📧 ruyluques@hotmail.com
