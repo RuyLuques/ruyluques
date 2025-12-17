@@ -89,7 +89,7 @@ export default function Clients() {
           />
 
           {/* Conteúdo */}
-          <div className="relative z-10 w-full max-w-md rounded-2xl bg-white p-6 shadow-xl dark:bg-zinc-950">
+          <div className="relative z-10 w-full max-w-3xl rounded-2xl bg-white p-6 shadow-xl dark:bg-zinc-950">
             <button
               onClick={() => setActiveClient(null)}
               className="absolute right-4 top-4 text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200"
