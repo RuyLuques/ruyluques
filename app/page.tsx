@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import ThemeToggle from "./components/ThemeToggle";
-import AboutModal from "./components/AboutModal";
+import Footer from "./components/Footer";
 import Clients from "./components/Clients";
 import Services from "./components/Services";
-import Footer from "./components/Footer";
+import AboutModal from "./components/AboutModal";
+import ThemeToggle from "./components/ThemeToggle";
+import Technologies from "./components/Technologies"; 
 import { useTheme } from "./components/ThemeProvider";
 
 export default function Home() {
@@ -78,6 +79,7 @@ export default function Home() {
 
       <Services />
       <Clients />
+      <Technologies/>
       <Footer />
 
       <AboutModal open={openAbout} onClose={() => setOpenAbout(false)} />
