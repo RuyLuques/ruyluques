@@ -7,42 +7,42 @@ import { Info, X } from "lucide-react";
 const clients = [
   {
     name: "Alumni",
-    logo: "/clients/alumni.png",
+    logo: "/clients/alumni.svg",
     desc: "Desenvolvimento de site institucional e melhorias de performance.",
   },
   {
     name: "Bihands",
-    logo: "/clients/bihands.png",
+    logo: "/clients/bihands.svg",
     desc: "Suporte técnico.",
   },
   {
     name: "EcoDoctor",
-    logo: "/clients/ecodoctor.png",
+    logo: "/clients/ecodoctor.svg",
     desc: "Desenvolvimento de sistema ERP em Vue.js para gestão e automação de processos.",
   },
   {
     name: "Felipe Leite",
-    logo: "/clients/felipe-leite.png",
+    logo: "/clients/felipe-leite.svg",
     desc: "Criação de site institucional.",
   },
   {
     name: "IFS",
-    logo: "/clients/ifs.png",
+    logo: "/clients/ifs.svg",
     desc: "Instrutora de programação e marketing.",
   },
   {
     name: "Nibo",
-    logo: "/clients/nibo.png",
+    logo: "/clients/nibo.svg",
     desc: "Desenvolvimento de sites, hotsites e aplicativos, gestão de CRM, dashboards, automações, documentação técnica, materiais digitais de marketing e suporte técnico.",
   },
   {
     name: "Petlove",
-    logo: "/clients/petlove.png",
+    logo: "/clients/petlove.svg",
     desc: "Endomarketing, assistente de eventos e desenvolvimento de ERP no produto VETUS.",
   },
   {
     name: "Sagrado Coração",
-    logo: "/clients/sagrado-coracao.png",
+    logo: "/clients/sagrado-coracao.svg",
     desc: "Suporte técnico no site institucional.",
   },
 ];

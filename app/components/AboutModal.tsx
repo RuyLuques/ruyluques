@@ -51,7 +51,7 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
 
           <p className="text-sm leading-snug text-white/90">
             Programadora com <strong>mais de 5 anos de experiência</strong>,
-            focada em criar <strong>soluções digitais escaláveis</strong>
+            focada em criar <strong>soluções digitais escaláveis </strong>
             que automatizam processos e geram valor real.
           </p>
 
