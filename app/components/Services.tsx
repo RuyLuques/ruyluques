@@ -123,7 +123,7 @@ export default function Services() {
 
           <button
             onClick={() => setOpen(!open)}
-            className="text-purple-500 transition dark:hover:text-purple-500"
+            className="text-purple-800 transition dark:hover:text-purple-500"
           >
             <Info className="h-5 w-5" />
           </button>
