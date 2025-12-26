@@ -73,10 +73,10 @@ export default function Clients() {
 
             <button
               onClick={() => setActiveClient(client)}
-              className="absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full bg-purple-700 text-white shadow hover:bg-purple-800"
+              className="absolute -right-4 -top-4 flex h-6 w-6 items-center justify-center text-purple-800 hover:text-purple-500"
               aria-label={`Detalhes sobre ${client.name}`}
             >
-              <Info size={14} />
+              <Info size={18} />
             </button>
           </div>
         ))}
