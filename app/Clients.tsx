@@ -53,8 +53,8 @@ export default function Clients() {
 
   return (
     <section className="mx-auto max-w-7xl px-5 py-10">
-      <h2 className="mb-14 text-center text-3xl font-semibold">
-        Clientes
+      <h2 className="mb-16 text-center text-3xl font-semibold">
+        Clientes e experiências profissionais
       </h2>
 
       <div className="grid grid-cols-3 gap-10 sm:grid-cols-3 md:grid-cols-5">

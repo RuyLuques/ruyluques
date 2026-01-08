@@ -1,6 +1,6 @@
-import "./globals.css";
-import { ThemeProvider } from "./components/ThemeProvider";
-import WhatsAppButton from "./components/WhatsAppButton";
+import "./styles/globals.css";
+import { ThemeProvider } from "./components/context/ThemeProvider";
+import WhatsAppButton from "./components/shared/WhatsAppButton";
 
 export default function RootLayout({
   children,

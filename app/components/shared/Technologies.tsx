@@ -24,27 +24,21 @@ const technologies = [
 
 export default function Technologies() {
   return (
-    <section className="mx-auto max-w-7xl px-5 py-10 overflow-hidden">
-      <h2 className="mb-10 text-center text-3xl font-semibold">
-        Tecnologias
-      </h2>
-
-      <div className="relative w-full">
-        <div className="flex w-max animate-carousel gap-10">
-          {[...technologies, ...technologies].map((tech, index) => (
-            <div
-              key={`${tech.name}-${index}`}
-              className="relative h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 opacity-80 hover:opacity-100 transition"
-            >
-              <Image
-                src={tech.logo}
-                alt={tech.name}
-                fill
-                className="object-contain"
-              />
-            </div>
-          ))}
-        </div>
+    <section className="w-full overflow-hidden relative">
+      <div className="flex w-max animate-carousel gap-10 px-6 sm:px-10">
+        {[...technologies, ...technologies].map((tech, index) => (
+          <div
+            key={`${tech.name}-${index}`}
+            className="relative h-10 w-10 sm:h-12 sm:w-12 md:h-16 md:w-16 flex-shrink-0 opacity-80 hover:opacity-100 transition"
+          >
+            <Image
+              src={tech.logo}
+              alt={tech.name}
+              fill
+              className="object-contain"
+            />
+          </div>
+        ))}
       </div>
     </section>
   );

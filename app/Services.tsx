@@ -111,14 +111,15 @@ export default function Services() {
 
   return (
     <section id="servicos" className="mx-auto max-w-7xl px-5 py-10">
-      <h2 className="mb-16 text-center text-3xl font-semibold">
-        Serviços
-      </h2>
 
       <div className="mb-20">
+        <h2 className="mb-16 text-center text-3xl font-semibold">
+        Experiências
+      </h2>
+
         <div className="mb-8 flex items-center gap-2">
           <h3 className="text-2xl font-semibold">
-            Especialista
+            Especialização em andamento
           </h3>
 
           <button

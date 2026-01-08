@@ -12,7 +12,7 @@ export default function About() {
 
         <Image
           src="/logo/ana-ruy.png"
-          alt="Ana Ruy Luques"
+          alt="foto de rosto da Ana Ruy Luques"
           width={140}
           height={140}
           className="rounded-full object-cover"
