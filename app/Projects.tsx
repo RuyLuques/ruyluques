@@ -12,7 +12,7 @@ const projects = [
     title: "Mentoria e dicas de carreira",
     description:
       "Atuei compartilhando dicas de carreira, vagas para iniciantes, estudos e mentorias no LinkedIn como trabalho voluntário.",
-    tags: ["Power BI", "SQL", "ETL"],
+    tags: ["Comunicação", "Currículo", "Carreira"],
     type: "Profissional",
     icon: FolderGit2,
     link: "#",
