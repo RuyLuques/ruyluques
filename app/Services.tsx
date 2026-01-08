@@ -151,7 +151,7 @@ export default function Services() {
 
         {open && (
           <div className="mb-8 rounded-xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700">
-            Experiência prévia como analista operacional, que fortaleceu minha base técnica e prática para atuação como especialista.
+            Experiência prévia como analista operacional, que fortaleceu minha base técnica e prática para atuação como futura especialista.
           </div>
         )}
 
