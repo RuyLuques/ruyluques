@@ -1,18 +1,18 @@
-    "use client";
+"use client";
 
-    import { useState } from "react";
-    import ThemeToggle from "./components/ui/ThemeToggle";
-    import AboutModal from "./components/AboutModal";
+import { useState } from "react";
+import ThemeToggle from "./components/ui/ThemeToggle";
+import AboutModal from "./components/AboutModal";
 import Technologies from "./components/shared/Technologies";
 
-    export default function HomeSection() {
-        const [openAbout, setOpenAbout] = useState(false);
+export default function HomeSection() {
+    const [openAbout, setOpenAbout] = useState(false);
 
-        return (
-            <>
-                <section
-                    id="home"
-                    className="
+    return (
+        <>
+            <section
+                id="home"
+                className="
             relative
             mx-auto
             flex
@@ -25,24 +25,26 @@ import Technologies from "./components/shared/Technologies";
             pb-32
             text-center
             "
-                >
-                    <div className="absolute right-6 top-6">
-                        <ThemeToggle />
-                    </div>
+            >
+                <div className="absolute right-6 top-6">
+                    <ThemeToggle />
+                </div>
 
-                    <h1 className="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">
-                        Dados e automação para soluções reais
-                    </h1>
+                <h1 className="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">
+                    Ana Ruy Luques
+                </h1>
 
-                    <p className="max-w-xl text-base text-neutral-500">
-                        Construí minha base ao longo de mais de 4 anos atuando em operações.
-                        Hoje, direciono minha carreira para a especialização em dados e automação, com foco em evolução técnica, consistência e projetos aplicados.
-                    </p>
+                <p className="max-w-xl text-base text-neutral-500">
+                    Analista de sistemas formada em <strong>análise e desenvolvimento de sistemas</strong>,
+                    pós-graduanda em <strong>dados</strong> e <strong>automação com IA</strong>.
+                    Mais de <strong>4 anos</strong> de experiência em <strong> operações e processos</strong>.
+                    Estou me especializando em <strong>dados</strong> e <strong>automação</strong>.
+                </p>
 
-                    <div className="flex gap-4">
-                        <button
-                            onClick={() => setOpenAbout(true)}
-                            className="
+                <div className="flex gap-4">
+                    <button
+                        onClick={() => setOpenAbout(true)}
+                        className="
                 rounded-full
                 border
                 border-purple-700
@@ -55,16 +57,16 @@ import Technologies from "./components/shared/Technologies";
                 hover:bg-purple-700
                 hover:text-white
                 "
-                        >
-                            Sobre mim
-                        </button>
-                    </div>
+                    >
+                        Sobre mim
+                    </button>
+                </div>
 
-                    <Technologies />
+                <Technologies />
 
-                </section>
+            </section>
 
-                <AboutModal open={openAbout} onClose={() => setOpenAbout(false)} />
-            </>
-        );
-    }
+            <AboutModal open={openAbout} onClose={() => setOpenAbout(false)} />
+        </>
+    );
+}
