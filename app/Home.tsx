@@ -58,7 +58,7 @@ export default function HomeSection() {
                 hover:text-white
                 "
                     >
-                        Sobre mim
+                        Saiba mais
                     </button>
                 </div>
 
