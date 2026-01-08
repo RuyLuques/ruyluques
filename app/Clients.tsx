@@ -188,7 +188,6 @@ export default function Clients() {
                   <p className="leading-relaxed">{client.desc}</p>
                 ) : (
                   <>
-                    {/* Tag período e tipo */}
                     <div className="flex flex-wrap gap-2 mb-2">
                       <span className="inline-block bg-purple-100 dark:bg-purple-800 text-purple-800 dark:text-purple-200 px-2 py-1 rounded-full text-xs font-semibold">
                         {client.desc.period}
@@ -200,7 +199,6 @@ export default function Clients() {
                       )}
                     </div>
 
-                    {/* Responsabilidades */}
                     <div>
                       <p className="font-semibold text-zinc-700">Responsabilidades:</p>
                       <ul className="list-disc list-inside ml-5 space-y-1 leading-relaxed text-zinc-700">
@@ -210,7 +208,6 @@ export default function Clients() {
                       </ul>
                     </div>
 
-                    {/* Resultados */}
                     {client.desc.results && (
                       <div>
                         <p className="font-semibold text-zinc-700">Resultados:</p>
