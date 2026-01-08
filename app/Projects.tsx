@@ -37,6 +37,56 @@ const projects = [
     icon: GraduationCap,
     link: "#"
   },
+  {
+    title: "Desafio Técnico de Análise de Dados",
+    description:
+      "Desenvolvi um projeto de ponta a ponta: da base de dados até os insights visuais. Transformei uma base bruta e inconsistente (diretamente do Excel) em informações financeiras claras e acionáveis sobre a performance de aplicativos. Ferramentas utilizadas: Excel (limpeza e tratamento de dados), Power BI Desktop (Power Query, DAX e dashboards interativos).",
+    tags: ["Excel", "Power BI", "Dados", "Dashboard"],
+    type: "Profissional",
+    status: "2025",
+    icon: FolderGit2,
+    link: "https://www.linkedin.com/posts/ruyluques_dataanalytics-powerbi-excel-activity-7341838532979638273-hm-h?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZp7AYB0XYTySwcbP-PsaJuO96fjkXCIwQ",
+  },
+  {
+  title: "Protótipo Mobile para Empresa de Serviços Elétricos",
+  description:
+    "Protótipo desenvolvido como freelance para uma empresa de serviços elétricos, com foco em facilitar o atendimento e a gestão de chamados. O projeto inclui fluxo de usuários, organização de chamados e otimização de processos internos, garantindo maior eficiência operacional.",
+  tags: ["Freelance", "UX/UI", "Mobile", "Gestão de Chamados"],
+  type: "Profissional",
+  status: "2025",
+  icon: FolderGit2,
+  link: "https://www.linkedin.com/posts/ruyluques_freelancer-mobile-programaaexaeto-activity-7374882919888224256-PSBf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZp7AYB0XYTySwcbP-PsaJuO96fjkXCIwQ",
+},
+{
+  title: "Automação de Fluxo Interno com RPA",
+  description:
+    "Automatizei um fluxo interno utilizando UiPath, reduzindo em 20% o tempo gasto com tarefas manuais repetitivas. O projeto liberou horas para análises técnicas e melhorias operacionais. Já estou evoluindo o fluxo com integrações de APIs e soluções híbridas (RPA + backend) para cenários com dados distribuídos e múltiplas plataformas. Por envolver dados sensíveis, detalhes completos serão adaptados em breve para o portfólio pessoal.",
+  tags: ["RPA", "Automação", "UiPath", "Eficiência Operacional"],
+  type: "Profissional",
+  status: "2025",
+  icon: FolderGit2,
+  link: "https://www.linkedin.com/posts/ruyluques_rpa-automaaexaeto-processos-activity-7335118963321769985-lj6z?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZp7AYB0XYTySwcbP-PsaJuO96fjkXCIwQ",
+},
+{
+  title: "Freelance: Sistema de Registros em Python",
+  description:
+    "Desenvolvi um pequeno sistema para um cliente que realizava de 200 a 400 registros, salvando em XML de 10 em 10. Embora minha preferência fosse por JavaScript, utilizei Python pela primeira vez e entreguei uma solução funcional e adequada às necessidades do cliente. O design foi simples, atendendo ao que o cliente solicitou. Em breve o código será disponibilizado no GitHub.",
+  tags: ["Python", "Freelance", "Backend", "XML"],
+  type: "Profissional",
+  status: "2025",
+  icon: FolderGit2,
+  link: "https://www.linkedin.com/posts/ruyluques_javascript-python-tecnologia-activity-7150219344994623488-CFl7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZp7AYB0XYTySwcbP-PsaJuO96fjkXCIwQ",
+},
+{
+  title: "Projeto Fullstack em 2 Dias (React + Tailwind + NodeJS)",
+  description:
+    "Desenvolvi um projeto completo em 2 dias, com frontend, backend e integração de marketing. O sistema possui 2 formulários autenticados, é 100% responsivo em 3 páginas, com todo conteúdo vindo de API. Inclui modelo de landing page, automação via Zapier (demonstrável manualmente), e testes simples com Cypress para validação de componentes. Design feito no Figma, focado no objetivo principal do projeto.",
+  tags: ["React", "Tailwind", "NodeJS", "Fullstack", "Marketing", "Cypress"],
+  type: "Profissional",
+  status: "2025",
+  icon: FolderGit2,
+  link: "https://www.linkedin.com/posts/ruyluques_english-junior-juninhos-activity-7127042147433787392-T_KH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZp7AYB0XYTySwcbP-PsaJuO96fjkXCIwQ",
+},
 ];
 
 export default function Projects() {
