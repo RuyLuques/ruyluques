@@ -20,7 +20,7 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
 
   return (
     <div
-      className="fixed inset-0 z-50 bg-black/70 flex items-start sm:items-center justify-center p-4"
+      className="mt-10 fixed inset-0 z-50 bg-black/70 flex items-start sm:items-center justify-center p-4"
       onClick={onClose}
     >
       <div
