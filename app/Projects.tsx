@@ -3,7 +3,6 @@
 import {
   FolderGit2,
   GraduationCap,
-  HeartHandshake,
   ExternalLink,
 } from "lucide-react";
 
@@ -11,27 +10,30 @@ const projects = [
   {
     title: "Mentoria e dicas de carreira",
     description:
-      "Atuei compartilhando dicas de carreira, vagas para iniciantes, estudos e mentorias no LinkedIn como trabalho voluntário.",
+      "Atuei compartilhando dicas de carreira, vagas para iniciantes, estudos e mentorias no LinkedIn e Youtube como trabalho voluntário.",
     tags: ["Comunicação", "Currículo", "Carreira"],
     type: "Profissional",
+    status: "2021 - 2025",
     icon: FolderGit2,
-    link: "#",
+    link: "https://www.youtube.com/@ruyluques",
   },
   {
-    title: "Desenvolvedora Web – Alumni Canadá",
+    title: "Desenvolvedora Web",
     description:
-      "Atuei como voluntária na ONG vinculada ao Consulado do Canadá, desenvolvendo soluções web e utilizando plataformas digitais.",
+      "Atuei como voluntária na ONG Alumni Canadá vinculada ao Consulado do Canadá, desenvolvendo soluções web e utilizando plataformas digitais.",
     tags: ["Fullstack", "WordPress", "Planejamento"],
     type: "Profissional",
+    status: "04/2022 - 04/2023",
     icon: FolderGit2,
-    link: "#",
+    link: "https://alumnicanadabrasil.org/",
   },
   {
-    title: "Projeto de Extensão – Inclusão Digital",
+    title: "Projeto de Extensão | UNICV",
     description:
       "Solução digital desenvolvida com foco em impacto social e acesso à informação.",
     tags: ["Web", "Dados", "Social"],
     type: "Acadêmico",
+    status: "Em progresso",
     icon: GraduationCap,
     link: "#"
   },
@@ -89,6 +91,23 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+
+                {project.status && (
+                  <span className="
+                    inline-block
+                    mt-2
+                    rounded-full
+                    bg-yellow-100
+                    px-2.5
+                    py-1
+                    text-xs
+                    font-semibold
+                    text-yellow-700
+                    "
+                  >
+                    {project.status}
+                  </span>
+                )}
               </div>
 
               <a
@@ -104,6 +123,7 @@ export default function Projects() {
                   transition
                   hover:underline
                 "
+                target="_blank"
               >
                 Ver projeto
                 <ExternalLink className="h-4 w-4" />
