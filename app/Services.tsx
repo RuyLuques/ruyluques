@@ -14,61 +14,57 @@ import {
 
 const operationalanalyst = [
   {
-    title: "Gestão de Redes Sociais",
-    tag: ["Linkedin", "Instagram", "Whatsapp"],
-    icon: Share2,
+    title: "DevOps / Cloud",
+    tag: ["Azure", "Firebase", "AWS EC2", "AWS S3", "VPC", "CI/CD", "GitLab CI", "Jenkins", "Bitbucket Pipelines"],
+    icon: LayoutTemplate,
   },
   {
-    title: "Blogs e Conteúdo",
-    tag: ["WordPress", "Wix", "Copywriting"],
-    icon: Monitor,
+    title: "Documentação",
+    tag: ["Notion", "Confluence", "Miro", "Treinamentos internos"],
+    icon: LayoutTemplate,
+  },
+    {
+    title: "Web",
+    tag: ["React", "Angular", "Vue", "API", "TypeScript", "JavaScript", "C#"],
+    icon: LayoutTemplate,
+  },
+  {
+    title: "Mobile",
+    tag: ["Ionic", "React Native", "Google Play", "App Store", "OneSignal"],
+    icon: LayoutTemplate,
+  },
+  {
+    title: "Marketing Digital",
+    tag: ["HubSpot", "UserPilot", "Endomarketing", "G4", "Gestão de Redes Sociais"],
+    icon: LayoutTemplate,
+  },
+  {
+    title: "Suporte / Infra",
+    tag: ["Windows", "Linux (Ubuntu)", "macOS", "Monitoramento de bugs (DataDog)"],
+    icon: Info,
   },
   {
     title: "Design",
-    tag: ["Figma", "Canva", "Miro"],
+    tag: ["Figma", "Canva", "Miro", "UX/UI"],
     icon: Pen,
   },
   {
-    title: "Web site",
-    tag: ["React", "Angular", "Firebase"],
-    icon: LayoutTemplate,
+    title: "Blogs e Conteúdo",
+    tag: ["WordPress", "Wix", "Copywriting", "SEO"],
+    icon: Monitor,
   },
 ];
 
 const specialistServices = [
-  {
-    title: "Análise de Dados",
-    tag: ["Power BI", "Looker Studio", "Metabase", "SQL"],
+    {
+    title: "Banco de Dados",
+    tag: ["SQL", "Power BI", "Looker Studio", "Metabase", "Databricks"],
     icon: Database,
   },
   {
-    title: "RPA",
-    tag: ["UiPath", "Power Automate", "Python", "n8n"],
-    icon: Database,
-  },
-  {
-    title: "Documentações",
-    tag: ["Notion", "Confluence"],
-    icon: Book,
-  },
-  {
-    title: "Desenvolvedor Mobile",
-    tag: [
-      "Angular",
-      "React",
-      "Ionic",
-      "React Native",
-      "TypeScript",
-      "Pipeline Whitelabel",
-      "Firebase",
-      "OneSignal",
-      "Google Console",
-      "App Store",
-      "DeepLink",
-      "C#",
-      "Azure",
-    ],
-    icon: Smartphone,
+    title: "Automação / RPA",
+    tag: ["RPA", "UiPath", "Power Automate", "n8n", "Zapier", "Python + Selenium", "Shell Script"],
+    icon: Share2,
   },
 ];
 
@@ -114,8 +110,8 @@ export default function Services() {
 
       <div className="mb-20">
         <h2 className="mb-16 text-center text-3xl font-semibold">
-        Experiências
-      </h2>
+          Experiências
+        </h2>
 
         <div className="mb-8 flex items-center gap-2">
           <h3 className="text-2xl font-semibold">

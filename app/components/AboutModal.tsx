@@ -47,6 +47,16 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
             <p className="ml-4">Ciência de Dados</p>
             <p className="ml-4">Robótica e Inteligência Artificial</p>
           </div>
+
+          <div className="mt-6">
+            <a
+              href="/docs/ana-ruy.pdf"
+              download="Ana Ruy - Analista de dados.pdf"
+              className="rounded-lg bg-purple-700 px-4 py-2 text-white font-semibold transition hover:bg-purple-800"
+            >
+              Baixar Currículo
+            </a>
+          </div>
         </div>
       </div>
     </div>
