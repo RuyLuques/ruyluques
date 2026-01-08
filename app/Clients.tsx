@@ -18,6 +18,30 @@ interface Client {
 
 const clients: Client[] = [
   {
+    name: "Nibo",
+    logo: "/clients/nibo.svg",
+    role: "Estagiária | Analista de Sistemas N2",
+    type: "CLT",
+    desc: {
+      period: "11/2023 - 07/2025",
+      responsibilities: [
+        "Atuação como Estagiária de Tecnologia com rápida progressão para Analista de Sistemas Nível 2, apoiando times de Marketing, Produto e Dados.",
+        "Desenvolvimento e manutenção de aplicações web e mobile, com suporte a pipelines DevOps e monitoramento de sistemas em produção.",
+        "Estruturação de fluxos internos, documentação técnica e criação de materiais de onboarding para novos colaboradores.",
+        "Análise, tratamento e visualização de dados utilizando Excel avançado, Looker Studio e Metabase.",
+        "Monitoramento de aplicações e automações com DataDog, identificando falhas, gargalos operacionais e oportunidades de melhoria."
+      ],
+      results: [
+        "Escala da plataforma de aproximadamente 50 para mais de 700 aplicativos.",
+        "Padronização de fluxos de dados entre times técnicos e de marketing, reduzindo retrabalho.",
+        "Criação de dashboards operacionais e analíticos utilizados nas decisões diárias do time.",
+        "Automação de rotinas críticas e monitoramento contínuo, reduzindo tempo de resposta a falhas.",
+        "Redução do tempo de configuração de aplicativos de 1 dia para aproximadamente 5 minutos por app.",
+        "Treinamento e suporte a novos colaboradores, acelerando o onboarding e fortalecendo a autonomia técnica do time."
+      ]
+    }
+  },
+  {
     name: "Felipe Leite",
     logo: "/clients/felipe-leite.svg",
     role: "Desenvolvedora Frontend",
@@ -55,6 +79,28 @@ const clients: Client[] = [
       ]
     }
   },
+      {
+    name: "IFS",
+    logo: "/clients/ifs.svg",
+    role: "Instrutora de Informática",
+    type: "Temporário",
+    desc: {
+      period: "11/2023 - 12/2023",
+      responsibilities: [
+        "Atuação como Instrutora de Informática em parceria com a Caixa Econômica Federal.",
+        "Planejamento e ministração de aulas práticas e treinamentos presenciais ao longo de 40 dias.",
+        "Adaptação de conteúdo técnico para diferentes níveis de conhecimento dos alunos.",
+        "Apoio individual aos participantes durante atividades práticas."
+      ],
+      results: [
+        "Capacitação de alunos em fundamentos de informática, promovendo autonomia no uso de ferramentas digitais.",
+        "Tradução de conceitos técnicos em linguagem acessível, aumentando o aproveitamento das aulas práticas.",
+        "Desenvolvimento de habilidades de comunicação, didática e condução de turmas.",
+        "Experiência prática em ensino técnico, reforçando capacidade de treinamento e onboarding em ambientes profissionais."
+      ]
+    }
+  },
+  
   {
     name: "EcoDoctor",
     logo: "/clients/ecodoctor.svg",
@@ -97,27 +143,6 @@ const clients: Client[] = [
     }
   },
   {
-    name: "IFS",
-    logo: "/clients/ifs.svg",
-    role: "Instrutora de Informática",
-    type: "Temporário",
-    desc: {
-      period: "11/2023 - 12/2023",
-      responsibilities: [
-        "Atuação como Instrutora de Informática em parceria com a Caixa Econômica Federal.",
-        "Planejamento e ministração de aulas práticas e treinamentos presenciais ao longo de 40 dias.",
-        "Adaptação de conteúdo técnico para diferentes níveis de conhecimento dos alunos.",
-        "Apoio individual aos participantes durante atividades práticas."
-      ],
-      results: [
-        "Capacitação de alunos em fundamentos de informática, promovendo autonomia no uso de ferramentas digitais.",
-        "Tradução de conceitos técnicos em linguagem acessível, aumentando o aproveitamento das aulas práticas.",
-        "Desenvolvimento de habilidades de comunicação, didática e condução de turmas.",
-        "Experiência prática em ensino técnico, reforçando capacidade de treinamento e onboarding em ambientes profissionais."
-      ]
-    }
-  },
-  {
     name: "Petlove",
     logo: "/clients/petlove.svg",
     role: "Estagiária | Desenvolvedora Frontend",
@@ -138,30 +163,6 @@ const clients: Client[] = [
       ]
     }
   },
-  {
-    name: "Nibo",
-    logo: "/clients/nibo.svg",
-    role: "Estagiária | Analista de Sistemas N2",
-    type: "CLT",
-    desc: {
-      period: "14/11/2023 - 25/07/2025",
-      responsibilities: [
-        "Atuação como Estagiária de Tecnologia com rápida progressão para Analista de Sistemas Nível 2, apoiando times de Marketing, Produto e Dados.",
-        "Desenvolvimento e manutenção de aplicações web e mobile, com suporte a pipelines DevOps e monitoramento de sistemas em produção.",
-        "Estruturação de fluxos internos, documentação técnica e criação de materiais de onboarding para novos colaboradores.",
-        "Análise, tratamento e visualização de dados utilizando Excel avançado, Looker Studio e Metabase.",
-        "Monitoramento de aplicações e automações com DataDog, identificando falhas, gargalos operacionais e oportunidades de melhoria."
-      ],
-      results: [
-        "Escala da plataforma de aproximadamente 50 para mais de 700 aplicativos.",
-        "Padronização de fluxos de dados entre times técnicos e de marketing, reduzindo retrabalho.",
-        "Criação de dashboards operacionais e analíticos utilizados nas decisões diárias do time.",
-        "Automação de rotinas críticas e monitoramento contínuo, reduzindo tempo de resposta a falhas.",
-        "Redução do tempo de configuração de aplicativos de 1 dia para aproximadamente 5 minutos por app.",
-        "Treinamento e suporte a novos colaboradores, acelerando o onboarding e fortalecendo a autonomia técnica do time."
-      ]
-    }
-  }
 ];
 
 export default function Clients() {
@@ -187,9 +188,22 @@ export default function Clients() {
               className="rounded-xl mb-3"
             />
 
-            <h3 className="text-sm text-zinc-500 dark:text-zinc-400 text-center mb-2">
+            <h3 className="text-sm text-zinc-500 dark:text-zinc-400 text-center mb-1">
               {client.role}
             </h3>
+            <span className="
+              inline-block
+              mt-2
+              rounded-full
+              bg-yellow-100
+              px-2.5
+              py-1
+              text-xs
+              font-semibold
+              text-yellow-700
+            ">
+              {client.desc.period}
+            </span>
             <h3 className="text-lg font-semibold text-zinc-900 dark:text-white text-center">
               {client.name}
             </h3>

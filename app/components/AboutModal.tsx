@@ -29,7 +29,6 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex flex-col items-center gap-4 text-center">
-          <h2 className="text-2xl font-bold text-white">Formação</h2>
 
           <div className="w-full mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-left">
             {courses.map((course, idx) => (
