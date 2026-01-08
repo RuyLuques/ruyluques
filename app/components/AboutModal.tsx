@@ -15,6 +15,7 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
     { name: "Análise e Desenvolvimento de Sistemas", type: "Graduação", status: "Concluído" },
     { name: "Ciência de Dados", type: "Pós-graduação", status: "Cursando", schedule: "Noite", finish: "05/2026" },
     { name: "Robótica e Inteligência Artificial", type: "Pós-graduação", status: "Cursando", schedule: "Noite", finish: "05/2026" },
+    { name: "CNH B", type: "Detran", status: "Cursando" },
   ];
 
   return (
