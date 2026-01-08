@@ -171,7 +171,7 @@ export default function Clients() {
   return (
     <section className="mx-auto max-w-7xl px-5 py-10">
       <h2 className="mb-16 text-center text-3xl font-semibold">
-        Clientes e experiências profissionais
+        Clientes e Experiências Profissionais
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
