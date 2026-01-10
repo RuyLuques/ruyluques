@@ -11,7 +11,7 @@ export default function Navbar() {
   const { dark } = useTheme();
 
   const linkClass =
-    "transition-colors text-neutral-700 dark:text-neutral-100 hover:text-purple-700 dark:hover:text-purple-400";
+    "transition-colors text-zinc-700 dark:text-zinc-100 hover:text-purple-700 dark:hover:text-purple-400";
 
   return (
     <header className="fixed top-0 z-50 w-full bg-black backdrop-blur">
@@ -52,7 +52,7 @@ export default function Navbar() {
           <ThemeToggle />
 
           <button
-            className="md:hidden flex items-center text-neutral-500 dark:text-neutral-300"
+            className="md:hidden flex items-center text-zinc-500 dark:text-zinc-300"
             onClick={() => setOpen(!open)}
             aria-label="Menu"
           >

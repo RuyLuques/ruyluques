@@ -63,10 +63,6 @@ export default function Projects() {
           Projetos
         </h2>
 
-        <p className="mt-3 text-sm text-zinc-600">
-          Projetos profissionais, acadêmicos e iniciativas com impacto real
-        </p>
-
         <div className="mt-6 flex flex-wrap justify-center gap-2">
           {FILTERS.map((item) => (
             <button
