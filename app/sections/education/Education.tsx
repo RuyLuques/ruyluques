@@ -3,9 +3,9 @@
 import { courses } from "../../data/education";
 import { CheckCircle } from "lucide-react";
 
-export default function EducationSection() {
+export default function Education() {
   return (
-    <section className="mx-auto max-w-4xl px-5 py-10 space-y-10" id="education">
+    <section id="education" className="mx-auto max-w-4xl px-5 py-10 space-y-10">
      <h2 className="mb-12 text-center text-3xl font-semibold">Educação & Formação</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
