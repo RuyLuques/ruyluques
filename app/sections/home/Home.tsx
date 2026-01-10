@@ -5,7 +5,7 @@ import ThemeToggle from "../../components/ui/ThemeToggle";
 import Technologies from "../../components/shared/Technologies";
 import EducationSection from "../../components/shared/EducationSection";
 
-export default function HomeSection() {
+export default function Home() {
     const [openAbout, setOpenAbout] = useState(false);
 
     return (
