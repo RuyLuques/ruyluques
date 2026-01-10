@@ -11,4 +11,5 @@ export interface Project {
   status?: string; 
   icon: LucideIcon;
   link: string;
+  images?: string[];
 }

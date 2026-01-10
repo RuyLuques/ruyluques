@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 
 import { Project } from "../../types/project";
+import Image from "next/image";
 
 interface ProjectCardProps {
   project: Project;
@@ -88,7 +89,28 @@ export function ProjectCard({ project }: ProjectCardProps) {
               </span>
             ))}
           </div>
+
+
         )}
+
+        {expanded && project.images && (
+          <div className="mt-4 grid grid-cols-3 gap-2">
+            {project.images.map((img, index) => (
+              <div
+                key={index}
+                className="relative h-24 w-full overflow-hidden rounded-lg"
+              >
+                <Image
+                  src={img}
+                  alt={`${project.title} - imagem ${index + 1}`}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            ))}
+          </div>
+        )}
+
       </div>
 
       <a

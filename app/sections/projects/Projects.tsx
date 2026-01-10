@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Filter } from "lucide-react";
 
 import { projects } from "../../data/projects";
 import { ProjectCard } from "./ProjectCard";
@@ -57,19 +56,12 @@ export default function Projects() {
     );
   }, [filter]);
 
-  const projectsToShow =
-    filter === "Todos"
-      ? filteredProjects
-      : filteredProjects.slice(0, 3);
-
   return (
     <section id="projects" className="mx-auto max-w-7xl px-6 py-10">
       <header className="mb-12 text-center">
-        <div className="flex items-center justify-center gap-3">
-          <h2 className="text-3xl font-semibold text-zinc-900">
-            Projetos
-          </h2>
-        </div>
+        <h2 className="text-3xl font-semibold text-zinc-900">
+          Projetos
+        </h2>
 
         <p className="mt-3 text-sm text-zinc-600">
           Projetos profissionais, acadêmicos e iniciativas com impacto real
@@ -94,7 +86,7 @@ export default function Projects() {
       </header>
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {projectsToShow.map((project) => (
+        {filteredProjects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
       </div>
