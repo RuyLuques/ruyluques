@@ -12,7 +12,7 @@ export default function EducationSection() {
         {courses.map((course, idx) => (
           <div
             key={idx}
-            className="rounded-lg border border-zinc-200 bg-white p-3 shadow-sm hover:shadow-md transition flex flex-col gap-1"
+            className="rounded-lg border border-zinc-200 bg-white p-3 text-zinc-900 shadow-sm hover:shadow-md transition flex flex-col gap-1"
           >
             <h3 className="text-sm font-semibold text-zinc-800">{course.name}</h3>
 

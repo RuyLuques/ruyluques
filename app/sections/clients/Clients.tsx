@@ -19,7 +19,7 @@ export default function Clients() {
             const mainResult = client.desc.results?.[0];
 
             return (
-              <div key={client.name} className="rounded-xl border border-zinc-200 p-5 bg-white shadow-sm hover:shadow-md transition">
+              <div key={client.name} className="rounded-xl border border-zinc-200 text-zinc-900 p-5 bg-white shadow-sm hover:shadow-md transition">
 
                 <div className="flex items-center gap-4 mb-4">
                   <Image

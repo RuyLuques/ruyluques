@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
 type ThemeContextType = {
   dark: boolean;
@@ -12,6 +12,14 @@ const ThemeContext = createContext<ThemeContextType | null>(null);
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [dark, setDark] = useState(false);
 
+  useEffect(() => {
+    if (dark) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [dark]);
+
   return (
     <ThemeContext.Provider
       value={{
@@ -20,9 +28,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       }}
     >
       <div
-        className={`min-h-screen transition-colors duration-300 ${
-          dark ? "bg-black text-zinc-100" : "bg-white text-zinc-900"
-        }`}
+        className={`min-h-screen transition-colors duration-300
+          ${dark ? "bg-black" : "bg-white"}`}
       >
         {children}
       </div>

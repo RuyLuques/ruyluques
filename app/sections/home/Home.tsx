@@ -34,7 +34,7 @@ export default function HomeSection() {
                     Ana Ruy Luques
                 </h1>
 
-                <p className="max-w-xl text-base text-zinc-400">
+                <p className="max-w-xl text-base">
                     Analista de sistemas formada em <strong>análise e desenvolvimento de sistemas</strong>,
                     pós-graduanda em <strong>dados</strong> e <strong>automação com IA</strong>.
                     Mais de <strong>4 anos</strong> de experiência em <strong> operações e processos</strong>.
@@ -42,9 +42,7 @@ export default function HomeSection() {
                 </p>
 
                 <Technologies />
-
             </section>
-
             <EducationSection />
         </>
     );
