@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import ThemeToggle from "../../components/ui/ThemeToggle";
-import AboutModal from "../../components/shared/AboutModal";
 import Technologies from "../../components/shared/Technologies";
+import EducationSection from "../../components/shared/EducationSection";
 
 export default function HomeSection() {
     const [openAbout, setOpenAbout] = useState(false);
@@ -41,32 +41,11 @@ export default function HomeSection() {
                     Estou me especializando em <strong>dados</strong> e <strong>automação</strong>.
                 </p>
 
-                <div className="flex gap-4">
-                    <button
-                        onClick={() => setOpenAbout(true)}
-                        className="
-                rounded-full
-                border
-                border-purple-700
-                px-8
-                py-3
-                text-sm
-                font-medium
-                text-purple-700
-                transition
-                hover:bg-purple-700
-                hover:text-white
-                "
-                    >
-                        Saiba mais
-                    </button>
-                </div>
-
                 <Technologies />
 
             </section>
 
-            <AboutModal open={openAbout} onClose={() => setOpenAbout(false)} />
+            <EducationSection />
         </>
     );
 }
