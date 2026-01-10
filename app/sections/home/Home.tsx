@@ -9,23 +9,23 @@ export default function Home() {
             <section
                 id="home"
                 className="
-          relative
-          mx-auto
-          flex
-          max-w-7xl
-          flex-col
-          items-center
-          gap-8
-          px-4
-          sm:px-6
-          lg:px-8
-          pt-32
-          sm:pt-40
-          pb-24
-          sm:pb-32
-          text-center
-        "
+    relative
+    mx-auto
+    flex
+    flex-col
+    items-center
+    justify-center
+    min-h-screen
+    gap-8
+    px-4
+    sm:px-6
+    lg:px-8
+    pt-32 sm:pt-40 lg:pt-48
+    pb-24 sm:pb-32
+    text-center
+  "
             >
+
                 <div className="absolute right-4 top-4 sm:right-6 sm:top-6">
                     <ThemeToggle />
                 </div>
