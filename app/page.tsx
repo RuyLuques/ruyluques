@@ -3,7 +3,6 @@
 import Navbar from "./components/shared/Navbar";
 import HomeSection from "./sections/home/Home";
 import Projects from "./sections/projects/Projects";
-import Services from "./sections/services/Services";
 import Clients from "./sections/clients/Clients";
 import Contato from "./sections/contact/Contact";
 
@@ -14,7 +13,6 @@ export default function Page() {
       <HomeSection />
 
       <section id="experience" className="scroll-mt-32">
-        <Services />
         <Clients />
       </section>
 
