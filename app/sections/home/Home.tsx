@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import ThemeToggle from "./components/ui/ThemeToggle";
-import AboutModal from "./components/AboutModal";
-import Technologies from "./components/shared/Technologies";
+import ThemeToggle from "../../components/ui/ThemeToggle";
+import AboutModal from "../../components/shared/AboutModal";
+import Technologies from "../../components/shared/Technologies";
 
 export default function HomeSection() {
     const [openAbout, setOpenAbout] = useState(false);

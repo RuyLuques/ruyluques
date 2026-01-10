@@ -1,11 +1,11 @@
 "use client";
 
 import Navbar from "./components/shared/Navbar";
-import HomeSection from "./Home";
-import Projects from "./Projects";
-import Services from "./Services";
-import Clients from "./Clients";
-import Contato from "./Contact";
+import HomeSection from "./sections/home/Home";
+import Projects from "./sections/projects/Projects";
+import Services from "./sections/services/Services";
+import Clients from "./sections/clients/Clients";
+import Contato from "./sections/contact/Contact";
 
 export default function Page() {
   return (
