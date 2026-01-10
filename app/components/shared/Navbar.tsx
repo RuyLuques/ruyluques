@@ -27,7 +27,7 @@ export default function Navbar() {
 
         <ul className="hidden md:flex items-center gap-6 text-sm">
           <li>
-            <a href="#home" className={linkClass}>
+            <a href="" className={linkClass}>
               Home
             </a>
           </li>
