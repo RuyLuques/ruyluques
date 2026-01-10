@@ -20,7 +20,7 @@ export default function Page() {
         <Projects />
       </section>
 
-      <section id="contact">
+      <section id="footer">
         <Footer />
       </section>
     </>
