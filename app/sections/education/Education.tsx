@@ -6,7 +6,7 @@ import { CheckCircle } from "lucide-react";
 export default function Education() {
   return (
     <section id="education" className="mx-auto max-w-4xl px-5 py-10 space-y-10">
-     <h2 className="mb-12 text-center text-3xl font-semibold">Educação & Formação</h2>
+      <h2 className="mb-12 text-center text-3xl font-semibold">Educação & Formação</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {courses.map((course, idx) => (
@@ -19,6 +19,8 @@ export default function Education() {
             <p className="text-[10px] text-zinc-500">
               {course.type} • {course.finish ?? "Em andamento"}
               {course.schedule && ` • ${course.schedule}`}
+              {course.institution && ` • ${course.institution}`}
+              {course.details && ` • ${course.details}`}
             </p>
 
             <div className="flex items-center gap-1">
