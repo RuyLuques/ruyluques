@@ -42,7 +42,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#contact" className={linkClass}>
+            <a href="#footer" className={linkClass}>
               Contato
             </a>
           </li>
@@ -93,7 +93,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#contact"
+                href="#footer"
                 className={linkClass + " block"}
                 onClick={() => setOpen(false)}
               >
