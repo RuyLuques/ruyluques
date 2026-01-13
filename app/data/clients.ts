@@ -23,7 +23,7 @@ export const clients: Client[] = [
         "Redução do tempo de configuração de aplicativos de 1 dia para aproximadamente 5 minutos por app.",
         "Treinamento e suporte a novos colaboradores, acelerando o onboarding e fortalecendo a autonomia técnica do time."
       ],
-      tags: ["Angular", "React", "React Native", "TypeScript", "Ionic", "Azure - pipeline", "Firebase", "OneSignal", "DataDog", "Google Console", "Apple Store", " Windows | MAC", "MetaBase", "Looker Studio",
+      tags: ["Angular", "React", "React Native", "TypeScript", "CI/CD", "Pipeline", "Ionic", "Azure - pipeline", "Firebase", "OneSignal", "DataDog", "Google Console", "Apple Store", " Windows | MAC", "MetaBase", "Looker Studio",
         "HubSpot", "Documentação técnica", "Treinamento", "Suporte Técnico", "Jira", "UserPilot",
       ]
     }
@@ -109,7 +109,7 @@ export const clients: Client[] = [
         "Melhoria na confiabilidade do frontend por meio da implementação de testes unitários.",
         "Experiência prática em ambiente de produto real, com entregas rápidas e aprendizado acelerado em curto período."
       ],
-      tags: ["Vue", "Testes unitário", "Design"]
+      tags: ["Vue", "Testes automatizados", "Testes unitários", "Lint + padrão de commit", "Design"]
     }
   },
   {
