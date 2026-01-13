@@ -23,7 +23,7 @@ export const clients: Client[] = [
         "Redução do tempo de configuração de aplicativos de 1 dia para aproximadamente 5 minutos por app.",
         "Treinamento e suporte a novos colaboradores, acelerando o onboarding e fortalecendo a autonomia técnica do time."
       ],
-      tags: ["Angular", "React", "React Native", "TypeScript", "CI/CD", "Pipeline", "Ionic", "Azure - pipeline", "Firebase", "OneSignal", "DataDog", "Google Console", "Apple Store", " Windows | MAC", "MetaBase", "Looker Studio",
+      tags: ["Uiptah", "REFramework", "Testes e homologação", "Banco de dados e utilização de APIs", "HTML e xpath", "Angular", "React", "React Native", "TypeScript", "CI/CD", "Pipeline", "Ionic", "Azure - pipeline", "Firebase", "OneSignal", "DataDog", "Google Console", "Apple Store", " Windows | MAC", "MetaBase", "Looker Studio",
         "HubSpot", "Documentação técnica", "Treinamento", "Suporte Técnico", "Jira", "UserPilot",
       ]
     }
