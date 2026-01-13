@@ -1,5 +1,5 @@
 export type CourseStatus = "Concluído" | "Cursando";
-export type CourseType = "Graduação" | "Pós-graduação" | "Detran" | "Complementar" | "Carteira de Habilitação";
+export type CourseType = "Graduação" | "Pós-graduação" | "Detran" | "Complementar" | "Carteira de Habilitação" | "Certificação";
 
 export interface Course {
   name: string;
@@ -13,6 +13,8 @@ export interface Course {
 
 export const courses: Course[] = [
   { name: "CNH 'B'", institution: "Detran", type: "Carteira de Habilitação", status: "Cursando" },
+  { name: "PL 900, PL 300'", institution: "Microsoft", type: "Certificação", status: "Cursando" },
+  { name: "UiPath Certified RPA Associate'", institution: "Uipath", type: "Certificação", status: "Cursando" },
   { name: "Ciência de Dados", institution: "Faculdade Líbano", details: "Noite", type: "Pós-graduação", status: "Cursando", schedule: "Noite", finish: "2026" },
   { name: "Robótica e Inteligência Artificial", institution: "Faculdade Líbano", details: "Noite", type: "Pós-graduação", status: "Cursando", schedule: "Noite", finish: "2026" },
   { name: "Análise e Desenvolvimento de Sistemas", institution: "UNICV", details: "EAD", type: "Graduação", status: "Concluído", finish: "2025" },
