@@ -4,27 +4,50 @@ export const clients: Client[] = [
   {
     name: "Nibo",
     logo: "/clients/nibo.svg",
-    role: "Estagiária | Analista de Sistemas N2",
+    role: "Analista de Sistemas | Automação e Produto",
     type: "CLT",
     desc: {
       period: "11/2023 - 07/2025",
       responsibilities: [
-        "Atuação como Estagiária de Tecnologia com rápida progressão para Analista de Sistemas Nível 2, apoiando times de Marketing, Produto e Dados.",
-        "Desenvolvimento e manutenção de aplicações web e mobile, com suporte a pipelines DevOps e monitoramento de sistemas em produção.",
-        "Estruturação de fluxos internos, documentação técnica e criação de materiais de onboarding para novos colaboradores.",
-        "Análise, tratamento e visualização de dados utilizando Excel avançado, Looker Studio e Metabase.",
-        "Monitoramento de aplicações e automações com DataDog, identificando falhas, gargalos operacionais e oportunidades de melhoria."
+        "Desenvolvimento, configuração e publicação de aplicativos Android e iOS, atuando na sustentação e evolução do produto.",
+        "Atuação como principal desenvolvedora e referência técnica, apoiando áreas de Produto, RevOps, Customer Success e Dados.",
+        "Implementação de automações de processos com UiPath e Google Sheets, substituindo fluxos manuais operacionais.",
+        "Integração de dados e APIs entre produto, operações e times de negócio.",
+        "Monitoramento e rastreamento de bugs e incidentes em produção utilizando Datadog.",
+        "Análise, limpeza, transformação e preparação de dados para uso operacional e analítico (ETL básico).",
+        "Criação de dashboards operacionais e analíticos para apoio à tomada de decisão.",
+        "Estruturação de documentação técnica e condução de treinamentos internos.",
+        "Representação técnica do time em reuniões de alinhamento com áreas técnicas e de negócio."
       ],
       results: [
-        "Escala da plataforma de aproximadamente 50 para mais de 700 aplicativos.",
-        "Padronização de fluxos de dados entre times técnicos e de marketing, reduzindo retrabalho.",
-        "Criação de dashboards operacionais e analíticos utilizados nas decisões diárias do time.",
-        "Automação de rotinas críticas e monitoramento contínuo, reduzindo tempo de resposta a falhas.",
-        "Redução do tempo de configuração de aplicativos de 1 dia para aproximadamente 5 minutos por app.",
-        "Treinamento e suporte a novos colaboradores, acelerando o onboarding e fortalecendo a autonomia técnica do time."
+        "Escala do produto de aproximadamente 50 para mais de 900 aplicativos em produção.",
+        "Redução do tempo de configuração de aplicativos de cerca de 30 minutos para aproximadamente 1 minuto por aplicativo.",
+        "Aumento da eficiência operacional por meio da automação de processos críticos.",
+        "Maior confiabilidade do produto com monitoramento contínuo e resposta rápida a incidentes.",
+        "Padronização de fluxos técnicos e de dados entre áreas, reduzindo retrabalho.",
+        "Capacitação de times internos por meio de documentação e treinamentos técnicos."
       ],
-      tags: ["Uiptah", "REFramework", "Testes e homologação", "Banco de dados e utilização de APIs", "HTML e xpath", "Angular", "React", "React Native", "TypeScript", "CI/CD", "Pipeline", "Ionic", "Azure - pipeline", "Firebase", "OneSignal", "DataDog", "Google Console", "Apple Store", " Windows | MAC", "MetaBase", "Looker Studio",
-        "HubSpot", "Documentação técnica", "Treinamento", "Suporte Técnico", "Jira", "UserPilot",
+      tags: [
+        "Android",
+        "iOS",
+        "Angular",
+        "TypeScript",
+        ".NET",
+        "SQL",
+        "UiPath",
+        "Google Sheets",
+        "APIs REST",
+        "ETL básico",
+        "Integração e transformação de dados",
+        "Datadog",
+        "Looker Studio",
+        "Metabase",
+        "Documentação técnica",
+        "Treinamento",
+        "Suporte técnico",
+        "Produto",
+        "RevOps",
+        "Customer Success"
       ]
     }
   },
@@ -68,7 +91,7 @@ export const clients: Client[] = [
       tags: ["Suporte Técnico", "AnyDask", "Rastreamento"]
     }
   },
-      {
+  {
     name: "IFS",
     logo: "/clients/ifs.svg",
     role: "Instrutora de Informática",
@@ -90,7 +113,7 @@ export const clients: Client[] = [
       tags: ["Planejamento", "Informática", "Programação", "Pacote Office", "Marca pessoal"]
     }
   },
-  
+
   {
     name: "EcoDoctor",
     logo: "/clients/ecodoctor.svg",
