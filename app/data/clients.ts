@@ -10,10 +10,9 @@ export const clients: Client[] = [
       period: "11/2023 - 07/2025",
       responsibilities: [
         "Desenvolvimento, configuração e publicação de aplicativos Android e iOS, atuando na sustentação e evolução do produto.",
-        "Atuação como principal desenvolvedora e referência técnica, apoiando áreas de Produto, RevOps, Customer Success e Dados.",
+        "Atuação como principal desenvolvedora e referência técnica, apoiando áreas de Tecnologia, Produto, Customer Success e Dados.",
         "Implementação de automações de processos com UiPath e Google Sheets, substituindo fluxos manuais operacionais.",
-        "Integração de dados e APIs entre produto, operações e times de negócio.",
-        "Monitoramento e rastreamento de bugs e incidentes em produção utilizando Datadog.",
+        "Monitoramento e rastreamento de bugs.",
         "Análise, limpeza, transformação e preparação de dados para uso operacional e analítico (ETL básico).",
         "Criação de dashboards operacionais e analíticos para apoio à tomada de decisão.",
         "Estruturação de documentação técnica e condução de treinamentos internos.",
