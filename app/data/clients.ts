@@ -164,18 +164,30 @@ export const clients: Client[] = [
     desc: {
       period: "02/2022 - 02/2023",
       responsibilities: [
-        "Atuação em Endomarketing, apoiando o fortalecimento da cultura interna do time de tecnologia.",
-        "Organização e suporte a eventos internos da área de tecnologia.",
-        "Suporte técnico N1 no produto Convênio Saúde, realizando atendimento inicial e triagem de demandas.",
-        "Desenvolvimento frontend para o produto VETUS, atuando na construção de interfaces web e melhorias de usabilidade."
-      ],
-      results: [
         "Apoio a iniciativas de endomarketing que aumentaram o engajamento e a integração do time de tecnologia.",
-        "Contribuição para a organização de eventos internos fortalecendo comunicação e troca de conhecimento entre áreas.",
-        "Atendimento técnico N1 garantindo resposta inicial rápida e melhor direcionamento de chamados.",
+        "Automação de processos com UiPath para apoio a rotinas operacionais internas.",
+        "Contribuição para a organização de eventos internos, fortalecendo a comunicação e a troca de conhecimento entre áreas.",
+        "Atendimento técnico N1, garantindo resposta inicial rápida e melhor direcionamento de chamados.",
         "Participação no desenvolvimento de interfaces do produto VETUS, contribuindo para melhorias na experiência do usuário."
       ],
-      tags: ["Endomarketing com o time de RH", "Desenvolvimento Frontend na Vetus", "Suporte N1 nos planos de saúde", "Assistente de eventos"]
+      results: [
+        "Maior engajamento e integração do time de tecnologia por meio de iniciativas de endomarketing.",
+        "Otimização de rotinas internas com automações utilizando UiPath.",
+        "Fortalecimento da comunicação entre áreas por meio da organização de eventos internos.",
+        "Melhoria no tempo de resposta e na triagem de chamados no atendimento técnico N1.",
+        "Evolução da experiência do usuário no produto VETUS por meio de melhorias nas interfaces."
+      ],
+      tags: [
+        "Endomarketing",
+        "UiPath",
+        "Automação de processos",
+        "Atendimento N1",
+        "Desenvolvimento Frontend",
+        "UX/UI",
+        "Eventos internos",
+        "Comunicação entre áreas",
+        "Produto VETUS"
+      ]
     }
-  },
+  }
 ];
