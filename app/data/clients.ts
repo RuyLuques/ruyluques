@@ -137,23 +137,31 @@ export const clients: Client[] = [
   {
     name: "Alumni Canadá",
     logo: "/clients/alumni.svg",
-    role: "Programador WordPress",
+    role: "Programadora WordPress",
     type: "Voluntário",
     desc: {
       period: "04/2022 - 04/2023",
       responsibilities: [
-        "Atuação como Programador WordPress na ONG Alumni Canadá, vinculada ao Consulado do Canadá.",
+        "Atuação como Programadora WordPress na ONG Alumni Canadá, vinculada ao Consulado do Canadá.",
         "Desenvolvimento e manutenção de soluções web utilizando WordPress.",
         "Planejamento e execução de projetos digitais em colaboração com equipes multidisciplinares.",
-        "Adaptação de soluções técnicas às limitações de orçamento e infraestrutura típicas de organizações sem fins lucrativos."
+        "Adaptação de soluções técnicas às limitações de orçamento e infraestrutura típicas de organizações sem fins lucrativos.",
+        "Participação ativa no planejamento e execução de projetos digitais do início ao fim."
       ],
       results: [
-        "Entrega de soluções web funcionais para apoiar comunicação institucional e iniciativas da ONG.",
-        "Participação ativa no planejamento e execução de projetos digitais do início ao fim.",
-        "Desenvolvimento de autonomia técnica e tomada de decisão em ambiente de recursos limitados.",
-        "Experiência prática em trabalho colaborativo com foco em impacto social e alcance institucional."
+        "Entrega de soluções web funcionais para apoiar a comunicação institucional e iniciativas da ONG.",
+        "Aumento da autonomia técnica e da capacidade de tomada de decisão em ambiente de recursos limitados.",
+        "Fortalecimento do trabalho colaborativo com foco em impacto social e alcance institucional."
       ],
-      tags: ["Planejamento", "Design", "WordPress", "Wix"]
+      tags: [
+        "WordPress",
+        "Desenvolvimento Web",
+        "Projetos Digitais",
+        "Organizações sem fins lucrativos",
+        "Autonomia técnica",
+        "Trabalho colaborativo",
+        "Impacto social"
+      ]
     }
   },
   {
