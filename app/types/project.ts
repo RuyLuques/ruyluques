@@ -1,5 +1,5 @@
 import { LucideIcon } from "lucide-react";
-
+export type ProjectLinkType = "url" | "pdf";
 export type ProjectType = "Profissional" | "Acadêmico" | "Social";
 
 export interface Project {
@@ -11,5 +11,6 @@ export interface Project {
   status?: string; 
   icon: LucideIcon;
   link: string;
+  linkType?: ProjectLinkType;
   images?: string[];
 }

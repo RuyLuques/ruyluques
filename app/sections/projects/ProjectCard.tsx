@@ -116,10 +116,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <a
         href={project.link}
         target="_blank"
+        download
         className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-purple-700 hover:underline"
       >
-        Ver projeto <ExternalLink className="h-4 w-4" />
+        Abrir PDF
       </a>
+
     </div>
   );
 }

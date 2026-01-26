@@ -21,11 +21,11 @@ export const projects: Project[] = [
     status: "2022",
     icon: HeartHandshake,
     link: "#",
-      images: [
-    "/projects/evento-1.png",
-    "/projects/evento-2.png",
-    "/projects/cd-minas.png",
-  ],
+    images: [
+      "/projects/evento-1.png",
+      "/projects/evento-2.png",
+      "/projects/cd-minas.png",
+    ],
   },
   {
     title: "Mentoria e dicas de carreira",
@@ -115,4 +115,16 @@ export const projects: Project[] = [
     icon: Briefcase,
     link: "https://www.linkedin.com/posts/ruyluques_english-junior-juninhos-activity-7127042147433787392-T_KH",
   },
+  {
+    title: "Projeto de Extensão | Capacitação Introdutória em Programação",
+    area: "Tecnologia Educacional",
+    type: "Acadêmico",
+    description:
+      "Projeto acadêmico desenvolvido na UNICV com foco na democratização do acesso à programação por meio de uma apostila digital em PDF, contendo conceitos básicos, exemplos do cotidiano e orientações práticas para iniciantes.",
+    tags: ["Extensão", "Educação", "Programação Básica"],
+    status: "2026",
+    icon: GraduationCap,
+    link: "/docs/projeto-extensao.pdf",
+    linkType: "pdf",
+  }
 ];
