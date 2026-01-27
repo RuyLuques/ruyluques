@@ -50,17 +50,6 @@ export const projects: Project[] = [
     link: "https://alumnicanadabrasil.org/",
   },
   {
-    title: "Projeto de Extensão | UNICV",
-    area: "Tecnologia",
-    type: "Acadêmico",
-    description:
-      "Solução digital desenvolvida com foco em impacto social e acesso à informação.",
-    tags: ["Web", "Dados", "Social"],
-    status: "Em progresso",
-    icon: GraduationCap,
-    link: "#",
-  },
-  {
     title: "Desafio Técnico de Análise de Dados",
     area: "Dados & Bi",
     type: "Acadêmico",
