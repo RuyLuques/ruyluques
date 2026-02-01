@@ -48,9 +48,24 @@ export default function QuickGuideModal({ open, onClose }: Props) {
   p-6 shadow-xl text-left space-y-6
 "
             >
-                <header className="space-y-1">
-                    <h2 className="text-2xl font-bold">👋 Guia rápido</h2>
+                <header className="relative flex items-start justify-between">
+                    <h2 className="text-2xl font-bold">Guia rápido</h2>
+
+                    <button
+                        onClick={onClose}
+                        aria-label="Fechar modal"
+                        className="
+      absolute right-0 top-0
+      rounded-md p-2
+      text-gray-500 hover:text-gray-900
+      hover:bg-gray-100
+      focus:outline-none focus:ring-2 focus:ring-primary
+    "
+                    >
+                        ✕
+                    </button>
                 </header>
+
 
                 <section className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm leading-relaxed">
 
