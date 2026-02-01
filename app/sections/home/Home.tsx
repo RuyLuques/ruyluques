@@ -30,7 +30,8 @@ export default function Home() {
                     <ThemeToggle />
                 </div>
                 <h1 className="max-w-3xl text-4xl font-bold py-8 tracking-tight sm:text-5xl"> Ana Ruy Luques </h1>
-                <p className="max-w-xl text-base"> Analista de sistemas formada em <strong>análise e desenvolvimento de sistemas</strong>, pós-graduanda em <strong>dados</strong> e <strong>automação com IA</strong>. Mais de <strong>4 anos</strong> de experiência em <strong> operações e processos</strong>. Estou me especializando em <strong>dados</strong> e <strong>automação</strong>. </p>
+                <p className="max-w-xl text-xl"> Mais de <strong>4 anos</strong> de experiência em 
+                <strong> programação.</strong> Perfil <strong>analítico</strong> e <strong>híbrido.</strong></p>
                 <div className="w-full flex justify-center mt-4">
                     <Technologies />
                 </div>

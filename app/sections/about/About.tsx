@@ -17,7 +17,7 @@ export default function About() {
     { icon: GlobeAltIcon, label: "Viajar e sentir a brisa da praia", color: "bg-blue-100 text-blue-700" },
     { icon: HeartIcon, label: "Curtindo momentos com família e amigos", color: "bg-pink-100 text-pink-700" },
     { icon: Leaf, label: "Cuido de mais de 50 plantas, minha mini selva", color: "bg-green-100 text-green-700" },
-    { icon: SparklesIcon, label: "Mãe de 5 gatos e ajudo uma ONG de resgate animal", color: "bg-yellow-100 text-yellow-700" },
+    { icon: SparklesIcon, label: "Mãe de Pet", color: "bg-yellow-100 text-yellow-700" },
     { icon: MusicalNoteIcon, label: "Música: canto e toco instrumentos", color: "bg-purple-100 text-purple-700" },
     { icon: Squares2X2Icon, label: "Adoro jogos manuais que desafiam minha criatividade", color: "bg-orange-100 text-orange-700" },
     { icon: Cog6ToothIcon, label: "Trabalhar com tecnologia é o que mais amo", color: "bg-indigo-100 text-indigo-700" },
@@ -28,7 +28,7 @@ export default function About() {
     <section id="about" className="mx-auto max-w-4xl px-6 space-y-8">
       <h2 className="text-3xl font-bold text-center">Sobre mim</h2>
       <p className="max-w-xl mx-auto text-center text-base">
-        Trabalho desde os <strong>14 anos</strong> e descobri que amo fazer o que me desafia e inspira. Tecnologia é minha paixão, mas também adoro criar, explorar novas ideias e encontrar soluções inteligentes para problemas do dia a dia. Vivo em <strong>Estância, Sergipe</strong>, sou casada e acredito que equilíbrio entre vida pessoal e trabalho faz toda diferença.
+        Trabalho desde os <strong>14 anos. </strong> 
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl mx-auto">
