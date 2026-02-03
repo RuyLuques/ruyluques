@@ -1,32 +1,51 @@
 import { Client } from "../types/client";
 
 export const clients: Client[] = [
+ {
+    name: "Bihands",
+    logo: "/clients/bihands.svg",
+    role: "Suporte Técnico",
+    type: "Temporário",
+    desc: {
+      period: "11/2025 - 12/2025",
+      responsibilities: [
+        "Atendimento técnico N1 e N2.",
+        "Suporte a usuários, redes e sistemas internos.",
+        "Registro, análise e encaminhamento de chamados.",
+        "Apoio à equipe de TI em demandas operacionais."
+      ],
+      results: [],
+      tags: [
+        "Suporte Técnico",
+        "Atendimento N1",
+        "Atendimento N2",
+        "Redes",
+        "Sistemas internos",
+        "Chamados"
+      ]
+    }
+  },
+
   {
     name: "Nibo",
     logo: "/clients/nibo.svg",
-    role: "Analista de Sistemas | Automação, Produto e Dados",
+    role: "Analista de Sistemas",
     type: "CLT",
     desc: {
       period: "11/2023 - 07/2025",
       responsibilities: [
-        "Desenvolvimento, configuração e publicação de aplicativos Android e iOS utilizando Angular, .NET, Ionic e React Native, garantindo estabilidade, escalabilidade e evolução contínua do produto.",
-        "Atuação como principal desenvolvedora e referência técnica, liderando decisões de arquitetura, sustentação e confiabilidade do produto.",
-        "Automação de processos operacionais com UiPath e Google Sheets, eliminando atividades manuais e reduzindo erros operacionais.",
-        "Monitoramento contínuo e rastreamento de bugs via Datadog, com atuação direta na identificação, análise e resolução de incidentes.",
-        "Integração de dados e APIs entre produtos, operações e áreas de negócio, assegurando consistência e fluidez das informações.",
-        "Análise, limpeza, transformação e preparação de dados para uso operacional e analítico (ETL básico).",
-        "Criação de dashboards operacionais e analíticos para suporte à tomada de decisão estratégica.",
-        "Estruturação de documentação técnica e condução de treinamentos internos para times técnicos e de negócio.",
-        "Representação do time técnico em reuniões de alinhamento com Produto, Dados, Customer Success e demais áreas."
+        "Desenvolvimento, configuração e publicação de aplicativos Android e iOS utilizando Angular, .NET, Ionic e React Native, suportando a escala do produto de 50 para mais de 900 aplicativos.",
+        "Referência técnica do time, orientação na organização das demandas, priorização de atividades, apoio à tomada de decisão e garantia da qualidade e confiabilidade das entregas.",
+        "Automação de processos com UiPath e JavaScript, simplificando o tempo de configuração de 30 minutos para 1 minuto por aplicativo.",
+        "Acompanhamento de incidentes e indicadores técnicos, garantindo resposta rápida, análise de causa e comunicação com áreas envolvidas.",
+        "Integração de dados e APIs entre produtos, operações e áreas de negócio.",
+        "Análise, limpeza e preparação de dados para uso operacional e analítico.",
+        "Criação de dashboards operacionais utilizados na tomada de decisão.",
+        "Padronização de processos, documentação técnica e condução de treinamentos internos para alinhamento da equipe e disseminação de boas práticas.",
+        "Representação do time em reuniões de alinhamento com áreas técnicas e de negócio.",
+        "Suporte técnico transversal a Produto, Dados e Customer Success."
       ],
-      results: [
-        "Escala do produto de aproximadamente 50 para mais de 900 aplicativos ativos em produção (+1700%).",
-        "Redução do tempo médio de configuração de aplicativos de 30 minutos para 1 minuto por aplicativo (redução superior a 95%).",
-        "Automação de processos críticos, gerando ganho significativo de eficiência operacional e redução de retrabalho.",
-        "Aumento da confiabilidade e disponibilidade do produto por meio de monitoramento contínuo e resposta rápida a incidentes.",
-        "Padronização de fluxos técnicos, integrações e dados entre áreas, reduzindo falhas e inconsistências operacionais.",
-        "Aceleração do onboarding e capacitação de times internos por meio de documentação técnica estruturada e treinamentos recorrentes."
-      ],
+      results: [],
       tags: [
         "Android",
         "iOS",
@@ -35,174 +54,90 @@ export const clients: Client[] = [
         ".NET",
         "Ionic",
         "React Native",
-        "SQL",
+        "JavaScript",
         "UiPath",
-        "Google Sheets",
-        "APIs REST",
-        "ETL",
+        "APIs",
         "Integração de dados",
-        "Datadog",
-        "Looker Studio",
-        "Metabase",
         "Dashboards",
-        "Documentação técnica",
-        "Treinamento interno",
-        "Suporte técnico transversal",
+        "Documentação",
+        "Treinamentos",
+        "Processos",
+        "Coordenação técnica",
         "Produto",
         "Dados",
-        "Customer Success",
-        "Escalabilidade",
-        "Automação de processos"
+        "Customer Success"
       ]
-    }
-  },
-  {
-    name: "Felipe Leite",
-    logo: "/clients/felipe-leite.svg",
-    role: "Programador WordPress",
-    type: "PJ",
-    desc: {
-      period: "11/2025 - 12/2025",
-      responsibilities: [
-        "Atuação como freelancer no desenvolvimento de website para artista plástico utilizando a plataforma Wix.",
-        "Criação e adaptação de layout com foco em design funcional, responsividade e navegação intuitiva.",
-        "Organização de conteúdo visual e textual para melhor apresentação do portfólio artístico."
-      ],
-      results: [
-        "Entrega de site funcional alinhado à identidade visual do artista.",
-        "Melhoria da experiência de navegação em diferentes dispositivos.",
-        "Experiência prática em levantamento de necessidades do cliente e tradução em solução digital."
-      ],
-      tags: ["Planejamento", "Design", "WordPress", "Wix"]
-    }
-  },
-  {
-    name: "Bihands",
-    logo: "/clients/bihands.svg",
-    role: "Suporte Técnico",
-    type: "PJ",
-    desc: {
-      period: "12/2025",
-      responsibilities: [
-        "Atuação em suporte técnico a clientes, realizando atendimento remoto e resolução de incidentes.",
-        "Instalação, configuração e suporte a softwares em ambiente de produção.",
-        "Acesso remoto via AnyDesk para diagnóstico e correção de problemas técnicos."
-      ],
-      results: [
-        "Atendimento direto a clientes, garantindo resolução rápida de demandas técnicas.",
-        "Experiência prática com suporte remoto e troubleshooting em ambiente real.",
-        "Desenvolvimento de agilidade na identificação e resolução de problemas técnicos."
-      ],
-      tags: ["Suporte Técnico", "AnyDask", "Rastreamento"]
-    }
-  },
-  {
-    name: "IFS",
-    logo: "/clients/ifs.svg",
-    role: "Instrutora de Informática",
-    type: "PJ",
-    desc: {
-      period: "11/2023 - 12/2023",
-      responsibilities: [
-        "Atuação como Instrutora de Informática em parceria com a Caixa Econômica Federal.",
-        "Planejamento e ministração de aulas práticas e treinamentos presenciais ao longo de 40 dias.",
-        "Adaptação de conteúdo técnico para diferentes níveis de conhecimento dos alunos.",
-        "Apoio individual aos participantes durante atividades práticas."
-      ],
-      results: [
-        "Capacitação de alunos em fundamentos de informática, promovendo autonomia no uso de ferramentas digitais.",
-        "Tradução de conceitos técnicos em linguagem acessível, aumentando o aproveitamento das aulas práticas.",
-        "Desenvolvimento de habilidades de comunicação, didática e condução de turmas.",
-        "Experiência prática em ensino técnico, reforçando capacidade de treinamento e onboarding em ambientes profissionais."
-      ],
-      tags: ["Planejamento", "Informática", "Programação", "Pacote Office", "Marca pessoal"]
     }
   },
 
   {
-    name: "EcoDoctor",
-    logo: "/clients/ecodoctor.svg",
-    role: "Desenvolvedora Frontend",
-    type: "PJ",
+    name: "IFS",
+    logo: "/clients/ifs.svg",
+    role: "Instrutora de Tecnologia",
+    type: "Temporário",
     desc: {
-      period: "04/2023 - 06/2023",
+      period: "11/2023 - 12/2023",
       responsibilities: [
-        "Atuação como Desenvolvedora Frontend em healthtech, trabalhando com Vue.js em software voltado para profissionais da saúde.",
-        "Desenvolvimento e manutenção de funcionalidades do sistema, com foco em usabilidade e estabilidade.",
-        "Criação e execução de testes unitários para validação de componentes e fluxos críticos.",
-        "Colaboração com o time técnico na melhoria contínua da base de código."
+        "Capacitação de alunos em fundamentos de informática.",
+        "Promoção da autonomia no uso de ferramentas digitais.",
+        "Condução de aulas presenciais com foco prático."
       ],
-      results: [
-        "Contribuição direta para a evolução de funcionalidades do sistema utilizado por médicos.",
-        "Melhoria na confiabilidade do frontend por meio da implementação de testes unitários.",
-        "Experiência prática em ambiente de produto real, com entregas rápidas e aprendizado acelerado em curto período."
-      ],
-      tags: ["Vue", "Testes automatizados", "Testes unitários", "Lint + padrão de commit", "Design"]
+      results: [],
+      tags: [
+        "Informática",
+        "Educação",
+        "Treinamento",
+        "Capacitação",
+        "Didática"
+      ]
     }
   },
+
   {
-    name: "Alumni Canadá",
+    name: "Alumni Canadá-Brasil",
     logo: "/clients/alumni.svg",
-    role: "Programadora WordPress",
+    role: "Analista de Sistemas Jr",
     type: "Voluntário",
     desc: {
       period: "04/2022 - 04/2023",
       responsibilities: [
-        "Atuação como Programadora WordPress na ONG Alumni Canadá, vinculada ao Consulado do Canadá.",
         "Desenvolvimento e manutenção de soluções web utilizando WordPress.",
         "Planejamento e execução de projetos digitais em colaboração com equipes multidisciplinares.",
         "Adaptação de soluções técnicas às limitações de orçamento e infraestrutura típicas de organizações sem fins lucrativos.",
-        "Participação ativa no planejamento e execução de projetos digitais do início ao fim."
+        "Participação ativa em todas as etapas dos projetos, do planejamento à entrega."
       ],
-      results: [
-        "Entrega de soluções web funcionais para apoiar a comunicação institucional e iniciativas da ONG.",
-        "Aumento da autonomia técnica e da capacidade de tomada de decisão em ambiente de recursos limitados.",
-        "Fortalecimento do trabalho colaborativo com foco em impacto social e alcance institucional."
-      ],
+      results: [],
       tags: [
         "WordPress",
         "Desenvolvimento Web",
         "Projetos Digitais",
-        "Organizações sem fins lucrativos",
-        "Autonomia técnica",
-        "Trabalho colaborativo",
-        "Impacto social"
+        "ONG",
+        "Trabalho colaborativo"
       ]
     }
   },
+
   {
-    name: "Petlove",
+    name: "PetLove",
     logo: "/clients/petlove.svg",
-    role: "Estagiária | Desenvolvimento Frontend e Suporte Técnico",
+    role: "Estagiária em Marketing",
     type: "CLT",
     desc: {
       period: "02/2022 - 02/2023",
       responsibilities: [
-        "Apoio a iniciativas de endomarketing voltadas ao time de tecnologia, contribuindo para aumento de engajamento, integração e alinhamento entre pessoas e áreas.",
-        "Contribuição direta na organização de eventos internos, apoiando comunicação, disseminação de conhecimento técnico e integração entre times.",
-        "Atendimento técnico N1, realizando triagem, diagnóstico inicial e direcionamento eficiente de chamados para times responsáveis.",
-        "Participação no desenvolvimento e manutenção de interfaces do produto VETUS, com foco em usabilidade, consistência visual e experiência do usuário.",
-        "Apoio à automação de rotinas operacionais internas com UiPath, reduzindo atividades manuais e esforço operacional."
+        "Apoio a iniciativas de endomarketing que aumentaram o engajamento e a integração do time de tecnologia.",
+        "Contribuição para a organização de eventos internos fortalecendo comunicação e troca de conhecimento entre áreas.",
+        "Atendimento técnico N1 garantindo resposta inicial rápida e melhor direcionamento de chamados.",
+        "Participação no desenvolvimento de interfaces do produto VETUS, contribuindo para melhorias na experiência do usuário."
       ],
-      results: [
-        "Contribuição para aumento do engajamento do time de tecnologia por meio de ações de endomarketing e eventos internos.",
-        "Melhoria na comunicação e integração entre áreas técnicas e de negócio.",
-        "Redução do tempo médio de resposta inicial em chamados técnicos N1, garantindo atendimento mais ágil e melhor encaminhamento.",
-        "Apoio à evolução da experiência do usuário no produto VETUS por meio de melhorias incrementais nas interfaces.",
-        "Otimização de rotinas internas com automações simples, reduzindo esforço manual e retrabalho."
-      ],
+      results: [],
       tags: [
-        "Desenvolvimento Frontend",
-        "UX/UI",
-        "Produto",
         "Endomarketing",
         "Eventos internos",
-        "Comunicação entre áreas",
-        "Atendimento técnico N1",
-        "UiPath",
-        "Automação de processos",
-        "Experiência do Usuário",
-        "Produto VETUS"
+        "Atendimento N1",
+        "UX",
+        "Produto VETUS",
+        "Comunicação"
       ]
     }
   },
