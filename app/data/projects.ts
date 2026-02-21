@@ -8,8 +8,28 @@ import { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
+  title: "Data Pipeline — Looqbox Challenge",
+  area: "Dados",
+  type: "Acadêmico",
+  description:
+    "Pipeline ETL containerizado desenvolvido em Python para processamento de vendas em PostgreSQL. A solução realiza extração com SQLAlchemy, transformação analítica com Pandas (agregações anuais e detecção de outliers) e carga automatizada. O projeto conta com Docker, healthcheck de banco, testes unitários com Pytest e CI via GitHub Actions, garantindo reprodutibilidade e confiabilidade.",
+  tags: [
+    "Python",
+    "PostgreSQL",
+    "Pandas",
+    "Docker",
+    "SQLAlchemy",
+    "Pytest",
+    "GitHub Actions",
+    "ETL"
+  ],
+  status: "2026",
+  icon: Briefcase,
+  link: "https://github.com/RuyLuques/desafio_looqbox"
+},
+  {
     title: "Pipeline de Dados: E-commerce Sales Analysis",
-    area: "Engenharia de Dados",
+    area: "Dados",
     type: "Acadêmico",
     description:
       "Construí um pipeline ETL modular em Python focado em resiliência e automação. O sistema realiza a extração de dados brutos, normalização dinâmica de esquemas com Pandas para tratar instabilidades, e consolida vendas mensais em métricas anuais de faturamento. A solução conta com persistência em SQLite e uma esteira de CI/CD via GitHub Actions, garantindo a integridade do processamento em ambiente de nuvem.",
