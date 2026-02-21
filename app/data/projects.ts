@@ -8,6 +8,17 @@ import { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
+    title: "Pipeline de Dados: E-commerce Sales Analysis",
+    area: "Engenharia de Dados",
+    type: "Acadêmico",
+    description:
+      "Construí um pipeline ETL modular em Python focado em resiliência e automação. O sistema realiza a extração de dados brutos, normalização dinâmica de esquemas com Pandas para tratar instabilidades, e consolida vendas mensais em métricas anuais de faturamento. A solução conta com persistência em SQLite e uma esteira de CI/CD via GitHub Actions, garantindo a integridade do processamento em ambiente de nuvem.",
+    tags: ["Python", "Pandas", "ETL", "GitHub Actions", "SQLite"],
+    status: "2026",
+    icon: Briefcase,
+    link: "https://github.com/RuyLuques/pipeline-vendas-ecommerce", // Ajuste para o link real do repo
+  },
+  {
     title: "Projeto de Cultura & Integração – Time Tech (Petlove)",
     area: "Endomarketing",
     type: "Profissional",
@@ -96,7 +107,7 @@ export const projects: Project[] = [
   {
     title: "Projeto Fullstack em 2 Dias (React + Tailwind + NodeJS)",
     area: "Tecnologia",
-    type: "Profissional",
+    type: "Acadêmico",
     description:
       "Desenvolvi um projeto completo em 2 dias, com frontend, backend e integração de marketing...",
     tags: ["React", "Tailwind", "NodeJS", "Fullstack", "Marketing"],
