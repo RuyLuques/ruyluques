@@ -2,6 +2,7 @@ import { LucideIcon } from "lucide-react";
 export type ProjectLinkType = "url" | "pdf";
 export type ProjectType = "Automação" | "Programação" | "Dados" | "Pessoas" | "Design";
 
+
 export interface Project {
   title: string;
   description: string;
