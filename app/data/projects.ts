@@ -8,9 +8,8 @@ import { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
-    title: "Looqbox Challenge – Data Analysis & SQL",
-    area: "Dados",
-    type: "Acadêmico",
+    title: "Looqbox Challenge - Data Analysis & SQL",
+    type: "Dados",
     description:
       "Resolução completa do desafio técnico Looqbox, utilizando SQL e Python para análise de vendas. O projeto inclui queries analíticas em MySQL, funções parametrizadas em Python para consulta flexível (retrieve_data), cálculo de métricas como Ticket Médio, análise de ratings por gênero e visualizações com matplotlib. Código modular, reutilizável e documentado para fácil entendimento e reaproveitamento.",
     tags: [
@@ -29,8 +28,7 @@ export const projects: Project[] = [
   },
   {
     title: "Data Pipeline - Looqbox Challenge",
-    area: "Dados",
-    type: "Acadêmico",
+    type: "Dados",
     description:
       "Pipeline ETL containerizado desenvolvido em Python para processamento de vendas em PostgreSQL. A solução realiza extração com SQLAlchemy, transformação analítica com Pandas (agregações anuais e detecção de outliers) e carga automatizada. O projeto conta com Docker, healthcheck de banco, testes unitários com Pytest e CI via GitHub Actions, garantindo reprodutibilidade e confiabilidade.",
     tags: [
@@ -49,8 +47,7 @@ export const projects: Project[] = [
   },
   {
     title: "Pipeline de Dados: E-commerce Sales Analysis",
-    area: "Dados",
-    type: "Acadêmico",
+    type: "Dados",
     description:
       "Construí um pipeline ETL modular em Python focado em resiliência e automação. O sistema realiza a extração de dados brutos, normalização dinâmica de esquemas com Pandas para tratar instabilidades, e consolida vendas mensais em métricas anuais de faturamento. A solução conta com persistência em SQLite e uma esteira de CI/CD via GitHub Actions, garantindo a integridade do processamento em ambiente de nuvem.",
     tags: ["Python", "Pandas", "ETL", "GitHub Actions", "SQLite"],
@@ -60,8 +57,7 @@ export const projects: Project[] = [
   },
   {
     title: "Projeto de Cultura & Integração – Time Tech (Petlove)",
-    area: "Endomarketing",
-    type: "Profissional",
+    type: "Pessoas",
     description:
       "Em 2022, atuei em um projeto em parceria com o time de Recursos Humanos voltado ao fortalecimento da cultura interna do time de tecnologia (dados, desenvolvimento, QA e design). O objetivo foi planejar e executar um encontro presencial para promover integração, senso de pertencimento e alinhamento cultural entre os colaboradores. Participei ativamente da organização ao longo de três dias de evento e, no último dia, fui responsável pela coordenação logística de dois ônibus, conduzindo colaboradores para visita ao novo Centro de Distribuição da empresa em Minas Gerais.",
     tags: [
@@ -80,8 +76,7 @@ export const projects: Project[] = [
   },
   {
     title: "Mentoria e dicas de carreira",
-    area: "Desenvolvimento de Carreira",
-    type: "Social",
+    type: "Pessoas",
     description:
       "Atuei compartilhando dicas de carreira, vagas para iniciantes, estudos e mentorias no LinkedIn e Youtube como trabalho voluntário.",
     tags: ["Comunicação", "Currículo", "Carreira"],
@@ -91,8 +86,7 @@ export const projects: Project[] = [
   },
   {
     title: "Desenvolvedora Web",
-    area: "Tecnologia",
-    type: "Social",
+    type: "Programação",
     description:
       "Atuei como voluntária na ONG Alumni Canadá vinculada ao Consulado do Canadá, desenvolvendo soluções web e utilizando plataformas digitais.",
     tags: ["Fullstack", "WordPress", "Planejamento"],
@@ -102,8 +96,7 @@ export const projects: Project[] = [
   },
   {
     title: "Desafio Técnico de Análise de Dados",
-    area: "Dados & Bi",
-    type: "Acadêmico",
+    type: "Dados",
     description:
       "Desenvolvi um projeto de ponta a ponta: da base de dados até os insights visuais...",
     tags: ["Excel", "Power BI", "Dados", "Dashboard"],
@@ -113,8 +106,7 @@ export const projects: Project[] = [
   },
   {
     title: "Protótipo Mobile para Empresa de Serviços Elétricos",
-    area: "Design",
-    type: "Profissional",
+    type: "Design",
     description:
       "Protótipo desenvolvido como freelance para uma empresa de serviços elétricos...",
     tags: ["Freelance", "UX/UI", "Mobile", "Gestão de Chamados"],
@@ -124,8 +116,7 @@ export const projects: Project[] = [
   },
   {
     title: "Automação de Fluxo Interno com RPA",
-    area: "Automação RPA",
-    type: "Profissional",
+    type: "Automação",
     description:
       "Automatizei um fluxo interno utilizando UiPath, reduzindo em 20% o tempo gasto...",
     tags: ["RPA", "Automação", "UiPath"],
@@ -135,8 +126,7 @@ export const projects: Project[] = [
   },
   {
     title: "Freelance: Sistema de Registros em Python",
-    area: "Tecnologia",
-    type: "Profissional",
+    type: "Design",
     description:
       "Desenvolvi um pequeno sistema para um cliente que realizava de 200 a 400 registros...",
     tags: ["Python", "Freelance", "Backend", "XML"],
@@ -146,8 +136,7 @@ export const projects: Project[] = [
   },
   {
     title: "Projeto Fullstack em 2 Dias (React + Tailwind + NodeJS)",
-    area: "Tecnologia",
-    type: "Acadêmico",
+    type: "Programação",
     description:
       "Desenvolvi um projeto completo em 2 dias, com frontend, backend e integração de marketing...",
     tags: ["React", "Tailwind", "NodeJS", "Fullstack", "Marketing"],
@@ -157,8 +146,7 @@ export const projects: Project[] = [
   },
   {
     title: "Projeto de Extensão | Capacitação Introdutória em Programação",
-    area: "Tecnologia Educacional",
-    type: "Acadêmico",
+    type: "Programação",
     description:
       "Projeto acadêmico desenvolvido na UNICV com foco na democratização do acesso à programação por meio de uma apostila digital em PDF, contendo conceitos básicos, exemplos do cotidiano e orientações práticas para iniciantes.",
     tags: ["Extensão", "Educação", "Programação Básica"],

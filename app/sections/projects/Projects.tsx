@@ -8,9 +8,9 @@ import { ProjectType } from "../../types/project";
 
 const FILTERS: (ProjectType | "Todos")[] = [
   "Todos",
-  "Profissional",
-  "Acadêmico",
-  "Social",
+  "Automação",
+  "Dados",
+  "Programação",
 ];
 
 function getProjectTimestamp(status?: string) {
