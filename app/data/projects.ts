@@ -8,7 +8,7 @@ import { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
-    title: "Looqbox Challenge - Data Analysis & SQL",
+    title: "Looqbox Desafio 2026",
     type: "Dados",
     description:
       "Resolução completa do desafio técnico Looqbox, utilizando SQL e Python para análise de vendas. O projeto inclui queries analíticas em MySQL, funções parametrizadas em Python para consulta flexível (retrieve_data), cálculo de métricas como Ticket Médio, análise de ratings por gênero e visualizações com matplotlib. Código modular, reutilizável e documentado para fácil entendimento e reaproveitamento.",
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     ],
     status: "2026",
     icon: Briefcase,
-    link: "https://github.com/RuyLuques/data-challenge"
+    link: "https://github.com/RuyLuques/looqbox-desafio-2026"
   },
   {
     title: "Data Pipeline - Looqbox Challenge",
