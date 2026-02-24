@@ -27,9 +27,9 @@ export default function Home() {
         </h1>
 
         <p className="max-w-xl text-xl">
-          Mais de <strong>4 anos</strong> de experiência em{" "}
-          <strong>programação</strong>. Perfil{" "}
-          <strong>analítico</strong> e <strong>híbrido</strong>.
+          Tenho experiência como analista de sistemas/dados. 
+          Tornando dados mais acessíveis para tomada de decisões, automatizando processos manuais e desenvolvendo documentações traduzindo conceitos técnicos para os demais times.
+          Perfil{" "}<strong>analítico</strong> e <strong>híbrido</strong>.
         </p>
 
         <button
