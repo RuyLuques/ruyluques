@@ -8,7 +8,7 @@ import { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
-  title: "Data Pipeline — Looqbox Challenge",
+  title: "Data Pipeline - Looqbox Challenge",
   area: "Dados",
   type: "Acadêmico",
   description:
