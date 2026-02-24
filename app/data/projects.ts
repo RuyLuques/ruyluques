@@ -53,7 +53,7 @@ export const projects: Project[] = [
     tags: ["Python", "Pandas", "ETL", "GitHub Actions", "SQLite"],
     status: "2026",
     icon: Briefcase,
-    link: "https://github.com/RuyLuques/pipeline-vendas-ecommerce", // Ajuste para o link real do repo
+    link: "https://github.com/RuyLuques/pipeline-vendas-ecommerce", 
   },
   {
     title: "Projeto de Cultura & Integração – Time Tech (Petlove)",
