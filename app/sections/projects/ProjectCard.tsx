@@ -36,12 +36,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
           {project.title}
         </h3>
 
-        {project.area && (
-          <p className="mt-1 text-sm font-medium text-zinc-500">
-            {project.area}
-          </p>
-        )}
-
         {project.status && (
           <span
             className="
