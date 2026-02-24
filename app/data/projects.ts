@@ -126,7 +126,7 @@ export const projects: Project[] = [
   },
   {
     title: "Freelance: Sistema de Registros em Python",
-    type: "Design",
+    type: "Programação",
     description:
       "Desenvolvi um pequeno sistema para um cliente que realizava de 200 a 400 registros...",
     tags: ["Python", "Freelance", "Backend", "XML"],
