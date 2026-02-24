@@ -8,25 +8,45 @@ import { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
-  title: "Data Pipeline - Looqbox Challenge",
-  area: "Dados",
-  type: "Acadêmico",
-  description:
-    "Pipeline ETL containerizado desenvolvido em Python para processamento de vendas em PostgreSQL. A solução realiza extração com SQLAlchemy, transformação analítica com Pandas (agregações anuais e detecção de outliers) e carga automatizada. O projeto conta com Docker, healthcheck de banco, testes unitários com Pytest e CI via GitHub Actions, garantindo reprodutibilidade e confiabilidade.",
-  tags: [
-    "Python",
-    "PostgreSQL",
-    "Pandas",
-    "Docker",
-    "SQLAlchemy",
-    "Pytest",
-    "GitHub Actions",
-    "ETL"
-  ],
-  status: "2026",
-  icon: Briefcase,
-  link: "https://github.com/RuyLuques/desafio_looqbox"
-},
+    title: "Looqbox Challenge – Data Analysis & SQL",
+    area: "Dados",
+    type: "Acadêmico",
+    description:
+      "Resolução completa do desafio técnico Looqbox, utilizando SQL e Python para análise de vendas. O projeto inclui queries analíticas em MySQL, funções parametrizadas em Python para consulta flexível (retrieve_data), cálculo de métricas como Ticket Médio, análise de ratings por gênero e visualizações com matplotlib. Código modular, reutilizável e documentado para fácil entendimento e reaproveitamento.",
+    tags: [
+      "Python",
+      "SQL",
+      "Pandas",
+      "PyMySQL",
+      "Matplotlib",
+      "Data Analysis",
+      "Queries",
+      "Boas práticas"
+    ],
+    status: "2026",
+    icon: Briefcase,
+    link: "https://github.com/RuyLuques/data-challenge"
+  },
+  {
+    title: "Data Pipeline - Looqbox Challenge",
+    area: "Dados",
+    type: "Acadêmico",
+    description:
+      "Pipeline ETL containerizado desenvolvido em Python para processamento de vendas em PostgreSQL. A solução realiza extração com SQLAlchemy, transformação analítica com Pandas (agregações anuais e detecção de outliers) e carga automatizada. O projeto conta com Docker, healthcheck de banco, testes unitários com Pytest e CI via GitHub Actions, garantindo reprodutibilidade e confiabilidade.",
+    tags: [
+      "Python",
+      "PostgreSQL",
+      "Pandas",
+      "Docker",
+      "SQLAlchemy",
+      "Pytest",
+      "GitHub Actions",
+      "ETL"
+    ],
+    status: "2026",
+    icon: Briefcase,
+    link: "https://github.com/RuyLuques/desafio_looqbox"
+  },
   {
     title: "Pipeline de Dados: E-commerce Sales Analysis",
     area: "Dados",
