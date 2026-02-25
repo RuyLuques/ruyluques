@@ -8,6 +8,25 @@ import { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
+  title: "Teste Técnico - Analytics | Quod",
+  type: "Dados",
+  description:
+    "Projeto desenvolvido como teste técnico para a área de Analytics. Realizei a simulação de um dataset de vendas (2023), tratamento completo dos dados (valores faltantes, duplicidades e tipagem), análise exploratória com visualizações mensais e extração de insights estratégicos. Também elaborei consultas SQL para consolidação de métricas e identificação de produtos com menor desempenho. O projeto demonstra organização de repositório, clareza analítica e capacidade de transformar dados em recomendações acionáveis.",
+  tags: [
+    "Python",
+    "Pandas",
+    "SQL",
+    "Data Cleaning",
+    "EDA",
+    "Matplotlib",
+    "Análise de Dados",
+    "Insights"
+  ],
+  status: "2026",
+  icon: GraduationCap,
+  link: "https://github.com/RuyLuques/Teste_Analytics_AnaRuy"
+},
+  {
     title: "Looqbox Desafio 2026",
     type: "Dados",
     description:
