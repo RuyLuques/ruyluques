@@ -81,9 +81,7 @@ export default function QuickGuideModal({ open, onClose }: Props) {
             <div>
               <h3 className="font-semibold">🧠 Quem sou</h3>
               <p>
-                Analista de Sistemas com <strong>4+ anos</strong>, perfil{" "}
-                <strong>híbrido (tech + negócio)</strong>, focada em{" "}
-                <strong>automação, dados e processos analíticos</strong>.
+               Tenho 26 anos, moro em Sergipe, casada, tenho 4 gatos e muitas plantinhas.
               </p>
             </div>
 
