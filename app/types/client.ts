@@ -1,4 +1,4 @@
-export type ClientType = "CLT" | "PJ" | "Voluntário" | "Temporário";
+export type ClientType = "CLT" | "PJ" | "Estágio" | "Voluntário" | "Temporário";
 
 export interface ClientDescription {
   period: string;

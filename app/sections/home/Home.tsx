@@ -27,9 +27,7 @@ export default function Home() {
         </h1>
 
         <p className="max-w-xl text-xl">
-          Tenho experiência como analista de sistemas/dados. 
-          Tornando dados mais acessíveis para tomada de decisões, automatizando processos manuais e desenvolvendo documentações traduzindo conceitos técnicos para os demais times.
-          Perfil{" "}<strong>analítico</strong> e <strong>híbrido</strong>.
+          Sou Analista de Sistemas com atuação híbrida entre desenvolvimento, automação e organização de dados operacionais.
         </p>
 
         <button
